@@ -1,0 +1,1551 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#ffffff">
+
+    <title>Privacy Policy | D2B – Design &amp; Development for Business</title>
+    <meta name="description"
+        content="Learn how D2B – Design &amp; Development for Business collects, uses, stores and protects the information you share through this website and in the course of our services.">
+    <link rel="canonical" href="https://your-domain.com/privacy-policy.html">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="D2B – Design &amp; Development for Business">
+    <meta property="og:title" content="Privacy Policy | D2B">
+    <meta property="og:description"
+        content="How D2B collects, uses, stores and protects the information you share through this website.">
+    <meta property="og:url" content="https://your-domain.com/privacy-policy.html">
+    <meta property="og:locale" content="en_IN">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Privacy Policy | D2B">
+    <meta name="twitter:description"
+        content="How D2B collects, uses, stores and protects the information you share through this website.">
+
+    <!-- Existing site stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+
+    <script>document.documentElement.classList.add('pp-js');</script>
+
+    <style>
+        /* =========================================================
+   D2B — PRIVACY POLICY  (LIGHT THEME)
+   All rules are scoped to body.privacy-page and prefixed .pp-
+   so they cannot affect index.html, about.html or other pages.
+   ========================================================= */
+
+        body.privacy-page {
+            --pp-bg: #ffffff;
+            --pp-bg-soft: #f6f8fc;
+            --pp-surface: #ffffff;
+            --pp-border: #e3e9f2;
+            --pp-border-strong: #cfd9e8;
+            --pp-text: #0e1729;
+            --pp-body: #475569;
+            --pp-muted: #6b7a90;
+            --pp-primary: #2563eb;
+            --pp-primary-2: #3b7bff;
+            --pp-primary-soft: #eef4ff;
+            --pp-radius: 16px;
+            --pp-radius-sm: 12px;
+            --pp-shadow-sm: 0 1px 2px rgba(15, 23, 42, .05), 0 8px 24px -18px rgba(15, 23, 42, .35);
+            --pp-shadow-md: 0 2px 4px rgba(15, 23, 42, .04), 0 24px 48px -32px rgba(15, 23, 42, .45);
+            --pp-max: 1180px;
+            --pp-font: 'Inter', 'Plus Jakarta Sans', system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+
+            margin: 0;
+            background: var(--pp-bg);
+            color: var(--pp-body);
+            font-family: var(--pp-font);
+            font-size: 16px;
+            line-height: 1.7;
+            overflow-x: hidden;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        @media (prefers-reduced-motion: no-preference) {
+            html {
+                scroll-behavior: smooth;
+            }
+        }
+
+        body.privacy-page *,
+        body.privacy-page *::before,
+        body.privacy-page *::after {
+            box-sizing: border-box;
+        }
+
+        body.privacy-page img,
+        body.privacy-page svg {
+            max-width: 100%;
+        }
+
+        body.privacy-page h1,
+        body.privacy-page h2,
+        body.privacy-page h3,
+        body.privacy-page h4 {
+            margin: 0;
+            color: var(--pp-text);
+            line-height: 1.25;
+            letter-spacing: -.015em;
+            font-weight: 700;
+        }
+
+        body.privacy-page p {
+            margin: 0;
+        }
+
+        body.privacy-page strong {
+            color: #1e293b;
+            font-weight: 650;
+        }
+
+        /* ---------- Layout ---------- */
+        .pp-container {
+            width: 100%;
+            max-width: var(--pp-max);
+            margin-inline: auto;
+            padding-inline: clamp(18px, 4vw, 32px);
+        }
+
+        /* ---------- Skip link ---------- */
+        .pp-skip {
+            position: absolute;
+            left: -9999px;
+            top: 0;
+            z-index: 999;
+            padding: 12px 20px;
+            background: var(--pp-primary);
+            color: #fff;
+            font-weight: 600;
+            font-size: .9rem;
+            border-radius: 0 0 10px 0;
+            text-decoration: none;
+        }
+
+        .pp-skip:focus {
+            left: 0;
+        }
+
+        /* ---------- Header / Nav ---------- */
+        .pp-header {
+            position: sticky;
+            top: 0;
+            z-index: 70;
+            background: rgba(255, 255, 255, .86);
+            backdrop-filter: blur(14px) saturate(160%);
+            -webkit-backdrop-filter: blur(14px) saturate(160%);
+            border-bottom: 1px solid var(--pp-border);
+        }
+
+        .pp-nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 24px;
+            min-height: 72px;
+        }
+
+        .pp-logo {
+            font-size: 1.3rem;
+            font-weight: 800;
+            letter-spacing: -.02em;
+            color: var(--pp-text);
+            text-decoration: none;
+            white-space: nowrap;
+        }
+
+        .pp-logo span {
+            color: var(--pp-primary-2);
+        }
+
+        .pp-nav__links {
+            display: flex;
+            align-items: center;
+            gap: 2px;
+        }
+
+        .pp-nav__links a {
+            color: var(--pp-body);
+            text-decoration: none;
+            font-size: .93rem;
+            font-weight: 500;
+            padding: 10px 15px;
+            border-radius: 999px;
+            transition: color .2s ease, background-color .2s ease;
+        }
+
+        .pp-nav__links a:hover {
+            color: var(--pp-text);
+            background: var(--pp-bg-soft);
+        }
+
+        .pp-nav__links a.pp-nav__cta {
+            margin-left: 8px;
+            color: #fff;
+            background: linear-gradient(135deg, var(--pp-primary), var(--pp-primary-2));
+            box-shadow: 0 10px 22px -14px rgba(37, 99, 235, .85);
+        }
+
+        .pp-nav__links a.pp-nav__cta:hover {
+            filter: brightness(1.05);
+            color: #fff;
+        }
+
+        .pp-burger {
+            display: none;
+            width: 44px;
+            height: 44px;
+            padding: 0;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 4px;
+            background: #fff;
+            border: 1px solid var(--pp-border-strong);
+            border-radius: 12px;
+            cursor: pointer;
+        }
+
+        .pp-burger span {
+            display: block;
+            width: 20px;
+            height: 2px;
+            border-radius: 2px;
+            background: var(--pp-text);
+            transition: transform .28s ease, opacity .28s ease;
+        }
+
+        .pp-burger.is-open span:nth-child(1) {
+            transform: translateY(6px) rotate(45deg);
+        }
+
+        .pp-burger.is-open span:nth-child(2) {
+            opacity: 0;
+        }
+
+        .pp-burger.is-open span:nth-child(3) {
+            transform: translateY(-6px) rotate(-45deg);
+        }
+
+        @media (max-width: 900px) {
+            .pp-burger {
+                display: flex;
+            }
+
+            .pp-nav__links {
+                display: none;
+                position: absolute;
+                left: 0;
+                right: 0;
+                top: 100%;
+                flex-direction: column;
+                align-items: stretch;
+                gap: 2px;
+                padding: 14px clamp(18px, 4vw, 32px) 22px;
+                background: #fff;
+                border-bottom: 1px solid var(--pp-border);
+                box-shadow: 0 28px 44px -30px rgba(15, 23, 42, .45);
+            }
+
+            .pp-nav__links.is-open {
+                display: flex;
+            }
+
+            .pp-nav__links a {
+                padding: 14px 16px;
+                border-radius: 12px;
+            }
+
+            .pp-nav__links a.pp-nav__cta {
+                margin-left: 0;
+                margin-top: 6px;
+                text-align: center;
+            }
+        }
+
+        /* ---------- Buttons ---------- */
+        .pp-btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            padding: 13px 26px;
+            border-radius: 999px;
+            font-size: .94rem;
+            font-weight: 600;
+            font-family: inherit;
+            line-height: 1;
+            text-decoration: none;
+            border: 1px solid transparent;
+            cursor: pointer;
+            transition: transform .22s ease, box-shadow .22s ease,
+                background-color .22s ease, border-color .22s ease, color .22s ease;
+        }
+
+        .pp-btn--primary {
+            background: linear-gradient(135deg, var(--pp-primary), var(--pp-primary-2));
+            color: #fff;
+            box-shadow: 0 12px 26px -14px rgba(37, 99, 235, .9);
+        }
+
+        .pp-btn--primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 18px 32px -14px rgba(37, 99, 235, 1);
+        }
+
+        .pp-btn--ghost {
+            background: #fff;
+            border-color: var(--pp-border-strong);
+            color: var(--pp-text);
+        }
+
+        .pp-btn--ghost:hover {
+            transform: translateY(-2px);
+            border-color: #9fb6d8;
+            background: var(--pp-bg-soft);
+        }
+
+        .pp-btn:focus-visible,
+        .pp-nav__links a:focus-visible,
+        .pp-burger:focus-visible,
+        .pp-toc a:focus-visible,
+        .pp-top:focus-visible {
+            outline: 2px solid var(--pp-primary);
+            outline-offset: 3px;
+        }
+
+        /* ---------- Hero ---------- */
+        .pp-hero {
+            position: relative;
+            overflow: hidden;
+            padding-block: clamp(46px, 6vw, 78px) clamp(36px, 4.5vw, 56px);
+            background: linear-gradient(180deg, var(--pp-bg-soft) 0%, #ffffff 100%);
+            border-bottom: 1px solid var(--pp-border);
+        }
+
+        .pp-hero::before {
+            content: "";
+            position: absolute;
+            top: -220px;
+            right: -140px;
+            width: 620px;
+            height: 520px;
+            background: radial-gradient(closest-side, rgba(37, 99, 235, .13), transparent 72%);
+            pointer-events: none;
+        }
+
+        .pp-hero__inner {
+            position: relative;
+            max-width: 840px;
+        }
+
+        .pp-eyebrow {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            font-size: .72rem;
+            font-weight: 700;
+            letter-spacing: .16em;
+            text-transform: uppercase;
+            color: var(--pp-primary);
+            padding: 7px 14px;
+            border: 1px solid #d6e3ff;
+            border-radius: 999px;
+            background: #fff;
+            box-shadow: var(--pp-shadow-sm);
+        }
+
+        .pp-eyebrow::before {
+            content: "";
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background: var(--pp-primary-2);
+            box-shadow: 0 0 0 4px rgba(59, 123, 255, .14);
+        }
+
+        .pp-hero h1 {
+            font-size: clamp(2rem, 4.6vw, 3.15rem);
+            letter-spacing: -.03em;
+            margin-top: 20px;
+        }
+
+        .pp-hero__desc {
+            margin-top: 18px;
+            max-width: 64ch;
+            font-size: clamp(1rem, 1.3vw, 1.075rem);
+            color: var(--pp-muted);
+        }
+
+        .pp-updated {
+            display: inline-flex;
+            align-items: center;
+            gap: 9px;
+            margin-top: 26px;
+            padding: 9px 16px;
+            font-size: .86rem;
+            font-weight: 500;
+            color: var(--pp-body);
+            background: #fff;
+            border: 1px solid var(--pp-border);
+            border-radius: 999px;
+            box-shadow: var(--pp-shadow-sm);
+        }
+
+        .pp-updated svg {
+            width: 15px;
+            height: 15px;
+            color: var(--pp-primary);
+            flex: 0 0 auto;
+        }
+
+        /* ---------- Document layout ---------- */
+        .pp-doc {
+            padding-block: clamp(40px, 5vw, 72px) clamp(56px, 6vw, 96px);
+        }
+
+        .pp-doc__grid {
+            display: grid;
+            grid-template-columns: 280px minmax(0, 1fr);
+            gap: clamp(28px, 4vw, 56px);
+            align-items: start;
+        }
+
+        @media (max-width: 1000px) {
+            .pp-doc__grid {
+                grid-template-columns: 1fr;
+                gap: 28px;
+            }
+        }
+
+        /* ---------- Table of contents ---------- */
+        .pp-toc {
+            position: sticky;
+            top: 96px;
+            border: 1px solid var(--pp-border);
+            border-radius: var(--pp-radius);
+            background: var(--pp-surface);
+            box-shadow: var(--pp-shadow-sm);
+            overflow: hidden;
+        }
+
+        .pp-toc__summary {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 12px;
+            list-style: none;
+            cursor: pointer;
+            padding: 18px 22px;
+            font-size: .78rem;
+            font-weight: 700;
+            letter-spacing: .14em;
+            text-transform: uppercase;
+            color: var(--pp-text);
+            user-select: none;
+        }
+
+        .pp-toc__summary::-webkit-details-marker {
+            display: none;
+        }
+
+        .pp-toc__summary::after {
+            content: "";
+            width: 8px;
+            height: 8px;
+            border-right: 2px solid var(--pp-muted);
+            border-bottom: 2px solid var(--pp-muted);
+            transform: rotate(45deg) translateY(-2px);
+            transition: transform .25s ease;
+        }
+
+        .pp-toc[open] .pp-toc__summary::after {
+            transform: rotate(-135deg) translateY(-2px);
+        }
+
+        .pp-toc__list {
+            list-style: none;
+            margin: 0;
+            padding: 0 12px 16px;
+            display: grid;
+            gap: 1px;
+            max-height: min(62vh, 560px);
+            overflow-y: auto;
+            overscroll-behavior: contain;
+            scrollbar-width: thin;
+            scrollbar-color: #cbd7e8 transparent;
+        }
+
+        .pp-toc__list::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        .pp-toc__list::-webkit-scrollbar-thumb {
+            background: #d6e0ee;
+            border-radius: 99px;
+        }
+
+        .pp-toc a {
+            display: block;
+            padding: 8px 12px 8px 10px;
+            border-radius: 9px;
+            font-size: .865rem;
+            line-height: 1.45;
+            color: var(--pp-body);
+            text-decoration: none;
+            border-left: 2px solid transparent;
+            transition: color .18s ease, background-color .18s ease, border-color .18s ease;
+        }
+
+        .pp-toc a:hover {
+            color: var(--pp-primary);
+            background: var(--pp-bg-soft);
+        }
+
+        .pp-toc a.is-current {
+            color: var(--pp-primary);
+            background: var(--pp-primary-soft);
+            border-left-color: var(--pp-primary);
+            font-weight: 600;
+        }
+
+        @media (max-width: 1000px) {
+            .pp-toc {
+                position: static;
+            }
+
+            .pp-toc__list {
+                max-height: none;
+            }
+        }
+
+        /* ---------- Content ---------- */
+        .pp-content {
+            background: var(--pp-surface);
+            border: 1px solid var(--pp-border);
+            border-radius: var(--pp-radius);
+            box-shadow: var(--pp-shadow-sm);
+            padding: clamp(26px, 4vw, 56px);
+        }
+
+        .pp-intro {
+            padding-bottom: 26px;
+            margin-bottom: 8px;
+            border-bottom: 1px solid var(--pp-border);
+            font-size: 1.02rem;
+            color: var(--pp-body);
+        }
+
+        .pp-section {
+            padding-block: 26px;
+            border-bottom: 1px solid var(--pp-border);
+            scroll-margin-top: 96px;
+        }
+
+        .pp-section:last-of-type {
+            border-bottom: 0;
+            padding-bottom: 8px;
+        }
+
+        .pp-section h2 {
+            display: flex;
+            align-items: baseline;
+            gap: 12px;
+            font-size: clamp(1.12rem, 1.9vw, 1.3rem);
+            letter-spacing: -.012em;
+            margin-bottom: 14px;
+        }
+
+        .pp-section h2 .pp-num {
+            flex: 0 0 auto;
+            font-size: .78rem;
+            font-weight: 700;
+            letter-spacing: .04em;
+            color: var(--pp-primary);
+            background: var(--pp-primary-soft);
+            border-radius: 7px;
+            padding: 3px 8px;
+            transform: translateY(-1px);
+        }
+
+        .pp-section h3 {
+            font-size: .98rem;
+            margin-top: 20px;
+            margin-bottom: 8px;
+            color: var(--pp-text);
+        }
+
+        .pp-section p {
+            margin-bottom: 12px;
+            max-width: 76ch;
+        }
+
+        .pp-section p:last-child {
+            margin-bottom: 0;
+        }
+
+        .pp-section ul,
+        .pp-section ol {
+            margin: 0 0 14px;
+            padding-left: 22px;
+            max-width: 76ch;
+        }
+
+        .pp-section ul {
+            list-style: disc;
+        }
+
+        .pp-section ul li,
+        .pp-section ol li {
+            margin-bottom: 8px;
+            padding-left: 4px;
+        }
+
+        .pp-section ul li::marker {
+            color: var(--pp-primary-2);
+        }
+
+        .pp-section ol li::marker {
+            color: var(--pp-primary);
+            font-weight: 600;
+        }
+
+        .pp-section li:last-child {
+            margin-bottom: 0;
+        }
+
+        .pp-section a {
+            color: var(--pp-primary);
+            text-decoration: underline;
+            text-decoration-thickness: 1px;
+            text-underline-offset: 2px;
+        }
+
+        .pp-section a:hover {
+            color: #1d4ed8;
+        }
+
+        /* ---------- Note callout ---------- */
+        .pp-note {
+            margin: 18px 0 6px;
+            padding: 16px 20px;
+            border-radius: var(--pp-radius-sm);
+            background: var(--pp-primary-soft);
+            border: 1px solid #d8e6ff;
+            border-left: 3px solid var(--pp-primary);
+            font-size: .94rem;
+            color: #1e3a8a;
+            max-width: 76ch;
+        }
+
+        .pp-note p {
+            margin-bottom: 0;
+            color: inherit;
+        }
+
+        .pp-note strong {
+            color: #1e3a8a;
+        }
+
+        /* ---------- Contact block ---------- */
+        .pp-contact-card {
+            margin-top: 6px;
+            padding: clamp(20px, 3vw, 30px);
+            border: 1px solid var(--pp-border);
+            border-radius: var(--pp-radius-sm);
+            background: var(--pp-bg-soft);
+            max-width: 76ch;
+        }
+
+        .pp-contact-card h3 {
+            margin-top: 0;
+            font-size: 1rem;
+            margin-bottom: 14px;
+        }
+
+        .pp-contact-card dl {
+            margin: 0;
+            display: grid;
+            grid-template-columns: auto 1fr;
+            gap: 10px 20px;
+            font-size: .95rem;
+        }
+
+        .pp-contact-card dt {
+            color: var(--pp-muted);
+            font-weight: 600;
+        }
+
+        .pp-contact-card dd {
+            margin: 0;
+            color: var(--pp-text);
+        }
+
+        .pp-contact-card dd a {
+            color: var(--pp-primary);
+        }
+
+        @media (max-width: 520px) {
+            .pp-contact-card dl {
+                grid-template-columns: 1fr;
+                gap: 2px 0;
+            }
+
+            .pp-contact-card dt {
+                margin-top: 10px;
+            }
+
+            .pp-contact-card dt:first-child {
+                margin-top: 0;
+            }
+        }
+
+        /* ---------- Bottom actions ---------- */
+        .pp-actions {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-top: 34px;
+            padding-top: 28px;
+            border-top: 1px solid var(--pp-border);
+        }
+
+        /* ---------- Back to top ---------- */
+        .pp-top {
+            position: fixed;
+            right: clamp(16px, 3vw, 28px);
+            bottom: clamp(16px, 3vw, 28px);
+            z-index: 80;
+            display: grid;
+            place-items: center;
+            width: 46px;
+            height: 46px;
+            border-radius: 50%;
+            background: #fff;
+            border: 1px solid var(--pp-border-strong);
+            color: var(--pp-text);
+            box-shadow: var(--pp-shadow-md);
+            cursor: pointer;
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(10px);
+            transition: opacity .25s ease, transform .25s ease, visibility .25s ease, border-color .2s ease;
+        }
+
+        .pp-top.is-visible {
+            opacity: 1;
+            visibility: visible;
+            transform: none;
+        }
+
+        .pp-top:hover {
+            border-color: var(--pp-primary);
+            color: var(--pp-primary);
+        }
+
+        .pp-top svg {
+            width: 18px;
+            height: 18px;
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            .pp-top {
+                transition: none;
+            }
+        }
+
+        /* ---------- Footer ---------- */
+        .pp-footer {
+            background: var(--pp-bg-soft);
+            border-top: 1px solid var(--pp-border);
+            padding-block: clamp(44px, 5vw, 64px) 24px;
+        }
+
+        .pp-footer__grid {
+            display: grid;
+            grid-template-columns: 1.6fr 1fr 1fr 1.25fr;
+            gap: clamp(28px, 4vw, 56px);
+        }
+
+        @media (max-width: 900px) {
+            .pp-footer__grid {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        @media (max-width: 560px) {
+            .pp-footer__grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .pp-footer h4 {
+            font-size: .76rem;
+            font-weight: 700;
+            letter-spacing: .14em;
+            text-transform: uppercase;
+            color: var(--pp-text);
+            margin: 0 0 16px;
+        }
+
+        .pp-footer ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: grid;
+            gap: 10px;
+        }
+
+        .pp-footer a {
+            color: var(--pp-body);
+            text-decoration: none;
+            font-size: .92rem;
+            transition: color .2s ease;
+        }
+
+        .pp-footer a:hover {
+            color: var(--pp-primary);
+        }
+
+        .pp-footer address {
+            font-style: normal;
+            font-size: .92rem;
+            color: var(--pp-body);
+            line-height: 1.8;
+        }
+
+        .pp-footer__about p {
+            margin-top: 14px;
+            font-size: .92rem;
+            color: var(--pp-muted);
+            max-width: 34ch;
+        }
+
+        .pp-footer__bottom {
+            margin-top: clamp(30px, 4vw, 48px);
+            padding-top: 22px;
+            border-top: 1px solid var(--pp-border);
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px 18px;
+            align-items: center;
+            justify-content: space-between;
+            font-size: .85rem;
+            color: var(--pp-muted);
+        }
+
+        .pp-footer__bottom a {
+            font-size: .85rem;
+        }
+
+        /* ---------- Print ---------- */
+        @media print {
+
+            .pp-header,
+            .pp-footer,
+            .pp-toc,
+            .pp-top,
+            .pp-actions,
+            .pp-skip {
+                display: none !important;
+            }
+
+            body.privacy-page {
+                background: #fff;
+                color: #000;
+            }
+
+            .pp-content {
+                border: 0;
+                box-shadow: none;
+                padding: 0;
+            }
+
+            .pp-doc__grid {
+                display: block;
+            }
+
+            .pp-section {
+                break-inside: avoid;
+            }
+
+            .pp-section h2 .pp-num {
+                background: none;
+                color: #000;
+                padding: 0;
+            }
+        }
+    </style>
+</head>
+
+<body class="privacy-page">
+
+    <a class="pp-skip" href="#main">Skip to content</a>
+
+    <!-- =========================================================
+     NAVBAR
+     Replace with the exact markup from index.html if it differs.
+     ========================================================= -->
+    <header class="pp-header">
+        <div class="pp-container pp-nav">
+            <a href="index.html" class="pp-logo"
+                aria-label="D2B – Design and Development for Business, home">D2B<span>.</span></a>
+
+            <nav class="nav-links" id="desktopNav" aria-label="Main navigation">
+                <a href="index.html#home">Home</a>
+                <a href="about.html">About</a>
+                <a href="index.html#services">Services</a>
+                <a href="index.html#industries">Industries</a>
+                <a href="index.html#work">Work</a>
+                <a href="index.html#developers">Developers</a>
+                <a href="index.html#process">Process</a>
+                <a href="index.html#contact">Contact</a>
+                <a href="index.html#contact" class="btn btn-primary">Discuss Your Project</a>
+            </nav>
+
+            <button class="pp-burger" id="navToggle" type="button" aria-label="Toggle navigation menu"
+                aria-expanded="false" aria-controls="navLinks">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <main id="main">
+
+        <!-- =========================================================
+       HERO
+       ========================================================= -->
+        <section class="pp-hero" aria-labelledby="page-title">
+            <div class="pp-container pp-hero__inner">
+                <span class="pp-eyebrow">Legal information</span>
+                <h1 id="page-title">Privacy Policy</h1>
+                <p class="pp-hero__desc">
+                    Your privacy matters to us. Learn how D2B collects, uses, stores and protects your
+                    information.
+                </p>
+
+                <!-- EDITABLE PLACEHOLDER: update this date whenever the policy changes -->
+                <p class="pp-updated">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"
+                        stroke-linejoin="round" aria-hidden="true">
+                        <rect x="3.5" y="5" width="17" height="15.5" rx="2.5" />
+                        <path d="M3.5 9.5h17M8 3.5v3M16 3.5v3" />
+                    </svg>
+                    <span>Last updated: <time datetime="2025-01-01">1 January 2025</time></span>
+                </p>
+            </div>
+        </section>
+
+        <!-- =========================================================
+       DOCUMENT
+       ========================================================= -->
+        <div class="pp-doc">
+            <div class="pp-container pp-doc__grid">
+
+                <!-- ---------- Table of contents ---------- -->
+                <details class="pp-toc" id="toc" open>
+                    <summary class="pp-toc__summary">Table of Contents</summary>
+                    <nav aria-label="Privacy policy contents">
+                        <ol class="pp-toc__list">
+                            <li><a href="#introduction">1. Introduction</a></li>
+                            <li><a href="#information-we-collect">2. Information We Collect</a></li>
+                            <li><a href="#how-we-collect">3. How We Collect Information</a></li>
+                            <li><a href="#how-we-use">4. How We Use Your Information</a></li>
+                            <li><a href="#email-communication">5. Email Communication</a></li>
+                            <li><a href="#third-party">6. Third-Party Services</a></li>
+                            <li><a href="#cookies">7. Cookies and Tracking</a></li>
+                            <li><a href="#storage-security">8. Data Storage and Security</a></li>
+                            <li><a href="#retention">9. Data Retention</a></li>
+                            <li><a href="#your-rights">10. Your Privacy Rights</a></li>
+                            <li><a href="#children">11. Children's Privacy</a></li>
+                            <li><a href="#external-links">12. External Links</a></li>
+                            <li><a href="#changes">13. Changes to This Privacy Policy</a></li>
+                            <li><a href="#contact">14. Contact Us</a></li>
+                        </ol>
+                    </nav>
+                </details>
+
+                <!-- ---------- Content ---------- -->
+                <article class="pp-content">
+
+                    <p class="pp-intro">
+                        This Privacy Policy explains how D2B – Design &amp; Development for Business handles
+                        information in connection with this website and the enquiries and services that follow.
+                        It applies to visitors to this website, to anyone who contacts us through it, and to
+                        clients whose information we handle in the course of providing services. It should be
+                        read together with our <a href="terms-and-conditions.html">Terms &amp; Conditions</a>.
+                    </p>
+
+                    <!-- 1 -->
+                    <section class="pp-section" id="introduction" aria-labelledby="introduction-h">
+                        <h2 id="introduction-h"><span class="pp-num" aria-hidden="true">01</span>Introduction</h2>
+                        <p>
+                            D2B – Design &amp; Development for Business is a software and web development company
+                            based in Giridih, Jharkhand, India, providing website development, web applications
+                            and related digital business solutions to clients across India.
+                        </p>
+                        <p>
+                            The purpose of this Privacy Policy is to explain, in clear terms, what information we
+                            may collect through this website and our communications, why we collect it, how it is
+                            used, and the choices available to you.
+                        </p>
+                        <p>
+                            This policy applies to information shared with D2B through this website, through
+                            enquiry and contact forms, through email correspondence, and in the course of
+                            providing agreed services. It does not apply to third-party websites or services that
+                            may be linked from this website.
+                        </p>
+                        <div class="pp-note">
+                            <p>
+                                <strong>Note:</strong> this policy describes our current practices. Where a
+                                particular feature (such as newsletter subscription or website analytics) is not
+                                implemented on this website, the corresponding parts of this policy do not apply
+                                until that feature is enabled.
+                            </p>
+                        </div>
+                    </section>
+
+                    <!-- 2 -->
+                    <section class="pp-section" id="information-we-collect" aria-labelledby="information-we-collect-h">
+                        <h2 id="information-we-collect-h"><span class="pp-num" aria-hidden="true">02</span>Information
+                            We Collect</h2>
+                        <p>
+                            Depending on how you interact with this website and with D2B, we may collect the
+                            following categories of information:
+                        </p>
+                        <ul>
+                            <li><strong>Contact details</strong> — such as your name, email address and phone number,
+                                when you provide them through a form or direct communication.</li>
+                            <li><strong>Business details</strong> — such as your business or organisation name, where
+                                relevant to an enquiry or project.</li>
+                            <li><strong>Service and project information</strong> — such as the service you are
+                                interested in, your requirements, project details, references, timelines and other
+                                information you choose to share.</li>
+                            <li><strong>Messages</strong> — the content of enquiries, requests, feedback and any
+                                correspondence you send us.</li>
+                            <li><strong>Technical information</strong> — such as your browser type, device type,
+                                approximate location derived from your IP address, and general website usage
+                                information, where such information is collected through standard hosting logs or
+                                analytics.</li>
+                        </ul>
+                        <p>
+                            We do not ask for sensitive personal information through this website, and we request
+                            that you do not send confidential credentials or sensitive documents through public
+                            forms. Please share only the information necessary for your enquiry.
+                        </p>
+                    </section>
+
+                    <!-- 3 -->
+                    <section class="pp-section" id="how-we-collect" aria-labelledby="how-we-collect-h">
+                        <h2 id="how-we-collect-h"><span class="pp-num" aria-hidden="true">03</span>How We Collect
+                            Information</h2>
+                        <p>Information may reach us through one or more of the following channels:</p>
+                        <ul>
+                            <li><strong>Contact and enquiry forms</strong> on this website, where you choose to submit
+                                details about yourself and your requirements.</li>
+                            <li><strong>Newsletter subscription forms</strong>, where such a feature is implemented on
+                                the website.</li>
+                            <li><strong>Direct communication</strong>, such as email or telephone calls that you
+                                initiate with us.</li>
+                            <li><strong>Website analytics and cookies</strong>, where these are implemented, which may
+                                collect technical and usage information automatically.</li>
+                            <li><strong>Ongoing project communication</strong>, where you share additional information
+                                as part of an agreed engagement.</li>
+                        </ul>
+                        <p>
+                            You are generally in control of the information you submit through forms and
+                            correspondence. Please provide accurate and up-to-date information so that we can
+                            respond appropriately.
+                        </p>
+                    </section>
+
+                    <!-- 4 -->
+                    <section class="pp-section" id="how-we-use" aria-labelledby="how-we-use-h">
+                        <h2 id="how-we-use-h"><span class="pp-num" aria-hidden="true">04</span>How We Use Your
+                            Information</h2>
+                        <p>Information collected may be used for the following purposes:</p>
+                        <ul>
+                            <li>responding to enquiries and requests for information;</li>
+                            <li>understanding project requirements and preparing responses, proposals or quotations;
+                            </li>
+                            <li>providing agreed services and communicating about ongoing work;</li>
+                            <li>sending relevant project-related communication, updates and administrative messages;
+                            </li>
+                            <li>improving the functionality, clarity and usability of this website;</li>
+                            <li>maintaining the security and integrity of this website and our systems;</li>
+                            <li>meeting applicable legal or regulatory obligations.</li>
+                        </ul>
+                        <p>
+                            We aim to use the information we collect only in ways that are consistent with the
+                            purpose for which it was provided, or as otherwise permitted or required by applicable
+                            law.
+                        </p>
+                    </section>
+
+                    <!-- 5 -->
+                    <section class="pp-section" id="email-communication" aria-labelledby="email-communication-h">
+                        <h2 id="email-communication-h"><span class="pp-num" aria-hidden="true">05</span>Email
+                            Communication</h2>
+                        <p>
+                            When you submit an enquiry or contact form, we may use the contact details you provide
+                            to respond to your enquiry, clarify your requirements and continue the conversation.
+                            These communications are directly related to your enquiry.
+                        </p>
+                        <p>
+                            If a newsletter subscription feature is implemented on this website, subscribing
+                            indicates that you would like to receive relevant updates. Subscribers should be able
+                            to unsubscribe using the mechanism provided in those communications (for example, an
+                            unsubscribe link in the email), where such a mechanism is implemented. If you have
+                            subscribed and would like to stop receiving updates, you can also contact us using the
+                            details at the end of this policy.
+                        </p>
+                        <p>
+                            We do not intend to send unrelated promotional messages to people who have not
+                            subscribed to receive them.
+                        </p>
+                    </section>
+
+                    <!-- 6 -->
+                    <section class="pp-section" id="third-party" aria-labelledby="third-party-h">
+                        <h2 id="third-party-h"><span class="pp-num" aria-hidden="true">06</span>Third-Party Services
+                        </h2>
+                        <p>
+                            Operating a website and communicating with visitors and clients may involve services
+                            provided by third parties. Where such services are used in connection with this
+                            website, they may process relevant information in accordance with their own privacy
+                            policies and terms.
+                        </p>
+                        <p>Depending on what is implemented on this website at a given time, these may include:</p>
+                        <ul>
+                            <li><strong>Email delivery services</strong> — for example, an email delivery service such
+                                as EmailJS, where contact and enquiry forms are configured to use it. Information
+                                submitted through those forms may be transmitted through the provider's infrastructure
+                                in order to reach us.</li>
+                            <li><strong>Hosting and infrastructure providers</strong> — which operate the servers and
+                                services on which this website and related communications are hosted.</li>
+                            <li><strong>Analytics services</strong> — where analytics tools are implemented, they may
+                                process general usage information to help us understand how the website is used.</li>
+                            <li><strong>Other operational providers</strong> — such as domain, email or backup services,
+                                where these are necessary for the operation of the website.</li>
+                        </ul>
+                        <p>
+                            Third-party providers may process information in accordance with their own policies.
+                            We encourage visitors to review the privacy policies of any third-party services they
+                            choose to use.
+                        </p>
+                    </section>
+
+                    <!-- 7 -->
+                    <section class="pp-section" id="cookies" aria-labelledby="cookies-h">
+                        <h2 id="cookies-h"><span class="pp-num" aria-hidden="true">07</span>Cookies and Tracking</h2>
+                        <p>
+                            Cookies are small text files that a website may place on your device to support
+                            particular functions or to help understand how the website is used. Different types of
+                            cookies serve different purposes.
+                        </p>
+                        <p>
+                            Where they are implemented on this website, cookies are generally used for one of the
+                            following purposes:
+                        </p>
+                        <ul>
+                            <li><strong>Essential cookies</strong> — needed for core functions such as basic navigation
+                                and form operation.</li>
+                            <li><strong>Analytics cookies</strong> — used to understand aggregate website usage, where
+                                an analytics service is implemented.</li>
+                        </ul>
+                        <p>
+                            You can manage or delete cookies through your browser settings. Most browsers allow
+                            you to block or clear cookies; doing so may affect the availability or behaviour of
+                            some website features. Instructions are typically available in your browser's help
+                            section.
+                        </p>
+                        <p>
+                            This policy does not claim that cookies, analytics or tracking technologies are used
+                            beyond what is actually implemented on this website at a given time.
+                        </p>
+                    </section>
+
+                    <!-- 8 -->
+                    <section class="pp-section" id="storage-security" aria-labelledby="storage-security-h">
+                        <h2 id="storage-security-h"><span class="pp-num" aria-hidden="true">08</span>Data Storage and
+                            Security</h2>
+                        <p>
+                            We take reasonable measures to protect the information that is shared with us, in
+                            line with the nature of the information and the way in which it is handled. This may
+                            include limiting access to information, using reputable service providers, and
+                            applying practical safeguards to the systems we use.
+                        </p>
+                        <p>
+                            However, no method of transmission over the internet and no method of electronic
+                            storage can be guaranteed to be completely secure. While we take reasonable care, we
+                            cannot promise that information shared with us will never be subject to unauthorised
+                            access or disclosure. Information is shared with us at your own discretion.
+                        </p>
+                    </section>
+
+                    <!-- 9 -->
+                    <section class="pp-section" id="retention" aria-labelledby="retention-h">
+                        <h2 id="retention-h"><span class="pp-num" aria-hidden="true">09</span>Data Retention</h2>
+                        <p>
+                            Information may be retained only for as long as is reasonably necessary for the
+                            purpose for which it was collected, for legitimate business needs such as record
+                            keeping related to a project, or to meet applicable legal or regulatory requirements.
+                        </p>
+                        <p>
+                            When information is no longer needed for these purposes, we aim to delete or
+                            otherwise appropriately handle it, taking into account the nature of the information
+                            and any obligations that may require a longer retention period.
+                        </p>
+                    </section>
+
+                    <!-- 10 -->
+                    <section class="pp-section" id="your-rights" aria-labelledby="your-rights-h">
+                        <h2 id="your-rights-h"><span class="pp-num" aria-hidden="true">10</span>Your Privacy Rights</h2>
+                        <p>
+                            Depending on the nature of the information and the applicable law, you may have
+                            certain rights in relation to your personal information. Where these apply, you may
+                            request to:
+                        </p>
+                        <ul>
+                            <li>access the personal information we hold about you;</li>
+                            <li>request correction of inaccurate or incomplete information;</li>
+                            <li>request deletion of information, where legally applicable;</li>
+                            <li>withdraw consent where consent was the basis for processing, subject to any applicable
+                                legal limitations;</li>
+                            <li>ask for information about how your information is being used.</li>
+                        </ul>
+                        <p>
+                            To make a request, please contact us using the details at the end of this policy. We
+                            aim to respond within a reasonable time. Some requests may be subject to verification
+                            or to limitations under applicable law.
+                        </p>
+                        <p>
+                            Where applicable, we aim to handle personal data in a manner consistent with
+                            applicable Indian data-protection requirements, including the Digital Personal Data
+                            Protection Act, 2023 and the rules and commencement provisions applicable to it,
+                            together with other applicable law. We do not claim compliance with any framework
+                            beyond what is actually applicable and implemented.
+                        </p>
+                    </section>
+
+                    <!-- 11 -->
+                    <section class="pp-section" id="children" aria-labelledby="children-h">
+                        <h2 id="children-h"><span class="pp-num" aria-hidden="true">11</span>Children's Privacy</h2>
+                        <p>
+                            This website is intended for business users and for adults seeking information about
+                            our services. It is not knowingly designed or directed to collect personal information
+                            from children.
+                        </p>
+                        <p>
+                            If you believe that a child has provided personal information to us through this
+                            website, please contact us using the details below so that we can review the matter
+                            and take appropriate action.
+                        </p>
+                    </section>
+
+                    <!-- 12 -->
+                    <section class="pp-section" id="external-links" aria-labelledby="external-links-h">
+                        <h2 id="external-links-h"><span class="pp-num" aria-hidden="true">12</span>External Links</h2>
+                        <p>
+                            This website may contain links to external websites that are not operated by D2B.
+                            Those websites may have their own privacy policies and practices.
+                        </p>
+                        <p>
+                            We are not responsible for the content, practices or privacy policies of external
+                            websites. We encourage you to review the privacy policy of any external website you
+                            visit.
+                        </p>
+                    </section>
+
+                    <!-- 13 -->
+                    <section class="pp-section" id="changes" aria-labelledby="changes-h">
+                        <h2 id="changes-h"><span class="pp-num" aria-hidden="true">13</span>Changes to This Privacy
+                            Policy</h2>
+                        <p>
+                            This Privacy Policy may be updated from time to time to reflect changes in our
+                            practices, our website or applicable requirements. When it is updated, the revised
+                            version will be published on this page.
+                        </p>
+                        <p>
+                            The "Last updated" date shown at the top of this page indicates the most recent
+                            revision. We encourage you to review this page periodically so that you are aware of
+                            the current policy.
+                        </p>
+                    </section>
+
+                    <!-- 14 -->
+                    <section class="pp-section" id="contact" aria-labelledby="contact-h">
+                        <h2 id="contact-h"><span class="pp-num" aria-hidden="true">14</span>Contact Us</h2>
+                        <p>
+                            If you have questions about this Privacy Policy, or would like to make a request in
+                            relation to your information, you can contact us using the details below.
+                        </p>
+
+                        <div class="pp-contact-card">
+                            <h3>D2B – Design &amp; Development for Business</h3>
+                            <dl>
+                                <dt>Email</dt>
+                                <dd><a href="mailto:d2bdigital79@gmail.com">d2bdigital79@gmail.com</a></dd>
+
+                                <dt>Phone</dt>
+                                <dd><a href="tel:+917488343041">+91 74883 43041</a></dd>
+
+                                <dt>Location</dt>
+                                <dd>Giridih, Jharkhand, India</dd>
+
+                                <dt>Service area</dt>
+                                <dd>All India</dd>
+                            </dl>
+                        </div>
+
+                        <div class="pp-actions">
+                            <a class="pp-btn pp-btn--primary" href="index.html#contact">Contact Us</a>
+                            <a class="pp-btn pp-btn--ghost" href="terms-and-conditions.html">Terms &amp; Conditions</a>
+                        </div>
+                    </section>
+
+                </article>
+            </div>
+        </div>
+    </main>
+
+    <button class="pp-top" id="backToTop" type="button" aria-label="Back to top">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round" aria-hidden="true">
+            <path d="M12 19V5" />
+            <path d="m5.5 11.5 6.5-6.5 6.5 6.5" />
+        </svg>
+    </button>
+
+    <!-- =========================================================
+     FOOTER
+     Replace with the exact markup from index.html if it differs.
+     ========================================================= -->
+    <footer class="pp-footer">
+        <div class="pp-container">
+            <div class="pp-footer__grid">
+                <div class="pp-footer__about">
+                    <a href="index.html" class="pp-logo"
+                        aria-label="D2B – Design and Development for Business, home">D2B<span>.</span></a>
+                    <p>Design &amp; Development for Business. Helping businesses build a professional digital presence.
+                    </p>
+                </div>
+
+                <div>
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="index.html#services">Services</a></li>
+                        <li><a href="index.html#work">Work</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="privacy-policy.html" aria-current="page">Privacy Policy</a></li>
+                        <li><a href="terms-and-conditions.html">Terms &amp; Conditions</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4>Contact</h4>
+                    <address>
+                        Giridih, Jharkhand, India<br>
+                        Serving clients across India<br>
+                        <a href="mailto:d2bdigital79@gmail.com">d2bdigital79@gmail.com</a><br>
+                        <a href="tel:+917488343041">+91 74883 43041</a>
+                    </address>
+                </div>
+            </div>
+
+            <div class="pp-footer__bottom">
+                <span>&copy; <span id="year">2025</span> D2B – Design &amp; Development for Business. All rights
+                    reserved.</span>
+                <a href="#main">Back to top</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        (function () {
+            'use strict';
+
+            /* ---------------- Mobile navigation ---------------- */
+            var toggle = document.getElementById('navToggle');
+            var links = document.getElementById('navLinks');
+
+            function closeNav() {
+                if (!links || !toggle) return;
+                links.classList.remove('is-open');
+                toggle.classList.remove('is-open');
+                toggle.setAttribute('aria-expanded', 'false');
+            }
+
+            if (toggle && links) {
+                toggle.addEventListener('click', function () {
+                    var isOpen = links.classList.toggle('is-open');
+                    toggle.classList.toggle('is-open', isOpen);
+                    toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+                });
+
+                links.addEventListener('click', function (e) {
+                    if (e.target.tagName === 'A') closeNav();
+                });
+
+                document.addEventListener('keydown', function (e) {
+                    if (e.key === 'Escape') closeNav();
+                });
+
+                window.addEventListener('resize', function () {
+                    if (window.innerWidth > 900) closeNav();
+                });
+            }
+
+            /* ---------------- Table of contents behaviour ---------------- */
+            var toc = document.getElementById('toc');
+
+            function syncToc() {
+                if (!toc) return;
+                // Collapsed by default on smaller screens, expanded on desktop.
+                toc.open = window.innerWidth > 1000;
+            }
+            syncToc();
+
+            var resizeTimer;
+            window.addEventListener('resize', function () {
+                clearTimeout(resizeTimer);
+                resizeTimer = setTimeout(syncToc, 150);
+            });
+
+            // Close the TOC after a link is tapped on mobile.
+            if (toc) {
+                toc.addEventListener('click', function (e) {
+                    if (e.target.tagName === 'A' && window.innerWidth <= 1000) {
+                        toc.open = false;
+                    }
+                });
+            }
+
+            /* ---------------- Active section highlighting ---------------- */
+            var tocLinks = Array.prototype.slice.call(
+                document.querySelectorAll('.pp-toc__list a')
+            );
+            var sections = tocLinks
+                .map(function (a) { return document.getElementById(a.getAttribute('href').slice(1)); })
+                .filter(Boolean);
+
+            function setActive(id) {
+                tocLinks.forEach(function (a) {
+                    var isCurrent = a.getAttribute('href') === '#' + id;
+                    a.classList.toggle('is-current', isCurrent);
+                    if (isCurrent) {
+                        a.setAttribute('aria-current', 'true');
+                    } else {
+                        a.removeAttribute('aria-current');
+                    }
+                });
+            }
+
+            if ('IntersectionObserver' in window && sections.length) {
+                var visible = new Map();
+
+                var sectionObserver = new IntersectionObserver(function (entries) {
+                    entries.forEach(function (entry) {
+                        if (entry.isIntersecting) {
+                            visible.set(entry.target.id, entry.boundingClientRect.top);
+                        } else {
+                            visible.delete(entry.target.id);
+                        }
+                    });
+
+                    if (visible.size) {
+                        var bestId = null;
+                        var bestTop = Infinity;
+                        visible.forEach(function (top, id) {
+                            if (top < bestTop) { bestTop = top; bestId = id; }
+                        });
+                        if (bestId) setActive(bestId);
+                    }
+                }, { rootMargin: '-96px 0px -55% 0px', threshold: 0 });
+
+                sections.forEach(function (s) { sectionObserver.observe(s); });
+                setActive(sections[0].id);
+            }
+
+            /* ---------------- Back to top ---------------- */
+            var topBtn = document.getElementById('backToTop');
+            var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+            if (topBtn) {
+                var ticking = false;
+
+                function updateTopBtn() {
+                    var show = window.scrollY > 600;
+                    topBtn.classList.toggle('is-visible', show);
+                    ticking = false;
+                }
+
+                window.addEventListener('scroll', function () {
+                    if (!ticking) {
+                        window.requestAnimationFrame(updateTopBtn);
+                        ticking = true;
+                    }
+                }, { passive: true });
+
+                updateTopBtn();
+
+                topBtn.addEventListener('click', function () {
+                    window.scrollTo({
+                        top: 0,
+                        behavior: reduceMotion ? 'auto' : 'smooth'
+                    });
+                    var main = document.getElementById('main');
+                    if (main) {
+                        main.setAttribute('tabindex', '-1');
+                        main.focus({ preventScroll: true });
+                    }
+                });
+            }
+
+            /* ---------------- Copyright year ---------------- */
+            var yearEl = document.getElementById('year');
+            if (yearEl) yearEl.textContent = new Date().getFullYear();
+        })();
+    </script>
+
+    <!-- Structured data — verified information only -->
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Privacy Policy | D2B",
+  "url": "https://your-domain.com/privacy-policy.html",
+  "description": "How D2B collects, uses, stores and protects the information shared through this website and in the course of its services.",
+  "publisher": {
+    "@type": "Organization",
+    "name": "D2B",
+    "alternateName": "Design & Development for Business",
+    "email": "d2bdigital79@gmail.com",
+    "telephone": "+917488343041",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Giridih",
+      "addressRegion": "Jharkhand",
+      "addressCountry": "IN"
+    },
+    "areaServed": { "@type": "Country", "name": "India" }
+  }
+}
+</script>
+
+</body>
+
+</html>

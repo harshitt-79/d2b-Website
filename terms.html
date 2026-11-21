@@ -1,0 +1,1642 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#ffffff">
+
+    <title>Terms &amp; Conditions | D2B – Design &amp; Development for Business</title>
+    <meta name="description"
+        content="Read the Terms &amp; Conditions governing the use of the D2B – Design &amp; Development for Business website and the general basis on which our website development and digital services are offered.">
+    <link rel="canonical" href="https://your-domain.com/terms-and-conditions.html">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="D2B – Design &amp; Development for Business">
+    <meta property="og:title" content="Terms &amp; Conditions | D2B">
+    <meta property="og:description"
+        content="The terms governing the use of the D2B website and the general basis on which our services are offered.">
+    <meta property="og:url" content="https://your-domain.com/terms-and-conditions.html">
+    <meta property="og:locale" content="en_IN">
+    <meta name="twitter:card" content="summary">
+
+    <!-- Existing site stylesheet (keeps shared classes / assets available) -->
+    <link rel="stylesheet" href="styles.css">
+
+    <script>document.documentElement.classList.add('t-js');</script>
+
+    <style>
+        /* =========================================================
+   D2B — TERMS & CONDITIONS  (LIGHT THEME)
+   All rules are scoped to body.terms-page and prefixed with
+   .t- so they cannot affect index.html or about.html.
+   Adjust the tokens below to fine-tune the light palette.
+   ========================================================= */
+
+        body.terms-page {
+            --t-bg: #ffffff;
+            --t-bg-soft: #f6f8fc;
+            --t-surface: #ffffff;
+            --t-border: #e3e9f2;
+            --t-border-strong: #cfd9e8;
+            --t-text: #0e1729;
+            --t-body: #475569;
+            --t-muted: #6b7a90;
+            --t-primary: #2563eb;
+            --t-primary-2: #3b7bff;
+            --t-primary-soft: #eef4ff;
+            --t-radius: 16px;
+            --t-radius-sm: 12px;
+            --t-shadow-sm: 0 1px 2px rgba(15, 23, 42, .05), 0 8px 24px -18px rgba(15, 23, 42, .35);
+            --t-shadow-md: 0 2px 4px rgba(15, 23, 42, .04), 0 24px 48px -32px rgba(15, 23, 42, .45);
+            --t-max: 1180px;
+            --t-font: 'Inter', 'Plus Jakarta Sans', system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+
+            margin: 0;
+            background: var(--t-bg);
+            color: var(--t-body);
+            font-family: var(--t-font);
+            font-size: 16px;
+            line-height: 1.7;
+            overflow-x: hidden;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        @media (prefers-reduced-motion: no-preference) {
+            html {
+                scroll-behavior: smooth;
+            }
+        }
+
+        body.terms-page *,
+        body.terms-page *::before,
+        body.terms-page *::after {
+            box-sizing: border-box;
+        }
+
+        body.terms-page img,
+        body.terms-page svg {
+            max-width: 100%;
+        }
+
+        body.terms-page h1,
+        body.terms-page h2,
+        body.terms-page h3,
+        body.terms-page h4 {
+            margin: 0;
+            color: var(--t-text);
+            line-height: 1.25;
+            letter-spacing: -.015em;
+            font-weight: 700;
+        }
+
+        body.terms-page p {
+            margin: 0;
+        }
+
+        body.terms-page strong {
+            color: #1e293b;
+            font-weight: 650;
+        }
+
+        /* ---------- Layout ---------- */
+        .t-container {
+            width: 100%;
+            max-width: var(--t-max);
+            margin-inline: auto;
+            padding-inline: clamp(18px, 4vw, 32px);
+        }
+
+        /* ---------- Skip link ---------- */
+        .t-skip {
+            position: absolute;
+            left: -9999px;
+            top: 0;
+            z-index: 999;
+            padding: 12px 20px;
+            background: var(--t-primary);
+            color: #fff;
+            font-weight: 600;
+            font-size: .9rem;
+            border-radius: 0 0 10px 0;
+            text-decoration: none;
+        }
+
+        .t-skip:focus {
+            left: 0;
+        }
+
+        /* ---------- Header / Nav ---------- */
+        .t-header {
+            position: sticky;
+            top: 0;
+            z-index: 70;
+            background: rgba(255, 255, 255, .86);
+            backdrop-filter: blur(14px) saturate(160%);
+            -webkit-backdrop-filter: blur(14px) saturate(160%);
+            border-bottom: 1px solid var(--t-border);
+        }
+
+        .t-nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 24px;
+            min-height: 72px;
+        }
+
+        .t-logo {
+            font-size: 1.3rem;
+            font-weight: 800;
+            letter-spacing: -.02em;
+            color: var(--t-text);
+            text-decoration: none;
+            white-space: nowrap;
+        }
+
+        .t-logo span {
+            color: var(--t-primary-2);
+        }
+
+        .t-nav__links {
+            display: flex;
+            align-items: center;
+            gap: 2px;
+        }
+
+        .t-nav__links a {
+            color: var(--t-body);
+            text-decoration: none;
+            font-size: .93rem;
+            font-weight: 500;
+            padding: 10px 15px;
+            border-radius: 999px;
+            transition: color .2s ease, background-color .2s ease;
+        }
+
+        .t-nav__links a:hover {
+            color: var(--t-text);
+            background: var(--t-bg-soft);
+        }
+
+        .t-nav__links a.is-active {
+            color: var(--t-primary);
+            background: var(--t-primary-soft);
+        }
+
+        .t-nav__links a.t-nav__cta {
+            margin-left: 8px;
+            color: #fff;
+            background: linear-gradient(135deg, var(--t-primary), var(--t-primary-2));
+            box-shadow: 0 10px 22px -14px rgba(37, 99, 235, .85);
+        }
+
+        .t-nav__links a.t-nav__cta:hover {
+            filter: brightness(1.05);
+            color: #fff;
+        }
+
+        .t-burger {
+            display: none;
+            width: 44px;
+            height: 44px;
+            padding: 0;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 4px;
+            background: #fff;
+            border: 1px solid var(--t-border-strong);
+            border-radius: 12px;
+            cursor: pointer;
+        }
+
+        .t-burger span {
+            display: block;
+            width: 20px;
+            height: 2px;
+            border-radius: 2px;
+            background: var(--t-text);
+            transition: transform .28s ease, opacity .28s ease;
+        }
+
+        .t-burger.is-open span:nth-child(1) {
+            transform: translateY(6px) rotate(45deg);
+        }
+
+        .t-burger.is-open span:nth-child(2) {
+            opacity: 0;
+        }
+
+        .t-burger.is-open span:nth-child(3) {
+            transform: translateY(-6px) rotate(-45deg);
+        }
+
+        @media (max-width: 900px) {
+            .t-burger {
+                display: flex;
+            }
+
+            .t-nav__links {
+                display: none;
+                position: absolute;
+                left: 0;
+                right: 0;
+                top: 100%;
+                flex-direction: column;
+                align-items: stretch;
+                gap: 2px;
+                padding: 14px clamp(18px, 4vw, 32px) 22px;
+                background: #fff;
+                border-bottom: 1px solid var(--t-border);
+                box-shadow: 0 28px 44px -30px rgba(15, 23, 42, .45);
+            }
+
+            .t-nav__links.is-open {
+                display: flex;
+            }
+
+            .t-nav__links a {
+                padding: 14px 16px;
+                border-radius: 12px;
+            }
+
+            .t-nav__links a.t-nav__cta {
+                margin-left: 0;
+                margin-top: 6px;
+                text-align: center;
+            }
+        }
+
+        /* ---------- Buttons ---------- */
+        .t-btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            padding: 13px 26px;
+            border-radius: 999px;
+            font-size: .94rem;
+            font-weight: 600;
+            font-family: inherit;
+            line-height: 1;
+            text-decoration: none;
+            border: 1px solid transparent;
+            cursor: pointer;
+            transition: transform .22s ease, box-shadow .22s ease,
+                background-color .22s ease, border-color .22s ease, color .22s ease;
+        }
+
+        .t-btn--primary {
+            background: linear-gradient(135deg, var(--t-primary), var(--t-primary-2));
+            color: #fff;
+            box-shadow: 0 12px 26px -14px rgba(37, 99, 235, .9);
+        }
+
+        .t-btn--primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 18px 32px -14px rgba(37, 99, 235, 1);
+        }
+
+        .t-btn--ghost {
+            background: #fff;
+            border-color: var(--t-border-strong);
+            color: var(--t-text);
+        }
+
+        .t-btn--ghost:hover {
+            transform: translateY(-2px);
+            border-color: #9fb6d8;
+            background: var(--t-bg-soft);
+        }
+
+        .t-btn:focus-visible,
+        .t-nav__links a:focus-visible,
+        .t-burger:focus-visible,
+        .t-toc a:focus-visible,
+        .t-top:focus-visible {
+            outline: 2px solid var(--t-primary);
+            outline-offset: 3px;
+        }
+
+        /* ---------- Hero ---------- */
+        .t-hero {
+            position: relative;
+            overflow: hidden;
+            padding-block: clamp(46px, 6vw, 78px) clamp(36px, 4.5vw, 56px);
+            background: linear-gradient(180deg, var(--t-bg-soft) 0%, #ffffff 100%);
+            border-bottom: 1px solid var(--t-border);
+        }
+
+        .t-hero::before {
+            content: "";
+            position: absolute;
+            top: -220px;
+            right: -140px;
+            width: 620px;
+            height: 520px;
+            background: radial-gradient(closest-side, rgba(37, 99, 235, .14), transparent 72%);
+            pointer-events: none;
+        }
+
+        .t-hero__inner {
+            position: relative;
+            max-width: 840px;
+        }
+
+        .t-eyebrow {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            font-size: .72rem;
+            font-weight: 700;
+            letter-spacing: .16em;
+            text-transform: uppercase;
+            color: var(--t-primary);
+            padding: 7px 14px;
+            border: 1px solid #d6e3ff;
+            border-radius: 999px;
+            background: #fff;
+            box-shadow: var(--t-shadow-sm);
+        }
+
+        .t-eyebrow::before {
+            content: "";
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background: var(--t-primary-2);
+            box-shadow: 0 0 0 4px rgba(59, 123, 255, .14);
+        }
+
+        .t-hero h1 {
+            font-size: clamp(2rem, 4.6vw, 3.15rem);
+            letter-spacing: -.03em;
+            margin-top: 20px;
+        }
+
+        .t-hero__desc {
+            margin-top: 18px;
+            max-width: 62ch;
+            font-size: clamp(1rem, 1.3vw, 1.075rem);
+            color: var(--t-muted);
+        }
+
+        .t-updated {
+            display: inline-flex;
+            align-items: center;
+            gap: 9px;
+            margin-top: 26px;
+            padding: 9px 16px;
+            font-size: .86rem;
+            font-weight: 500;
+            color: var(--t-body);
+            background: #fff;
+            border: 1px solid var(--t-border);
+            border-radius: 999px;
+            box-shadow: var(--t-shadow-sm);
+        }
+
+        .t-updated svg {
+            width: 15px;
+            height: 15px;
+            color: var(--t-primary);
+            flex: 0 0 auto;
+        }
+
+        /* ---------- Document layout ---------- */
+        .t-doc {
+            padding-block: clamp(40px, 5vw, 72px) clamp(56px, 6vw, 96px);
+        }
+
+        .t-doc__grid {
+            display: grid;
+            grid-template-columns: 280px minmax(0, 1fr);
+            gap: clamp(28px, 4vw, 56px);
+            align-items: start;
+        }
+
+        @media (max-width: 1000px) {
+            .t-doc__grid {
+                grid-template-columns: 1fr;
+                gap: 28px;
+            }
+        }
+
+        /* ---------- Table of contents ---------- */
+        .t-toc {
+            position: sticky;
+            top: 96px;
+            border: 1px solid var(--t-border);
+            border-radius: var(--t-radius);
+            background: var(--t-surface);
+            box-shadow: var(--t-shadow-sm);
+            overflow: hidden;
+        }
+
+        .t-toc__summary {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 12px;
+            list-style: none;
+            cursor: pointer;
+            padding: 18px 22px;
+            font-size: .78rem;
+            font-weight: 700;
+            letter-spacing: .14em;
+            text-transform: uppercase;
+            color: var(--t-text);
+            user-select: none;
+        }
+
+        .t-toc__summary::-webkit-details-marker {
+            display: none;
+        }
+
+        .t-toc__summary::after {
+            content: "";
+            width: 8px;
+            height: 8px;
+            border-right: 2px solid var(--t-muted);
+            border-bottom: 2px solid var(--t-muted);
+            transform: rotate(45deg) translateY(-2px);
+            transition: transform .25s ease;
+        }
+
+        .t-toc[open] .t-toc__summary::after {
+            transform: rotate(-135deg) translateY(-2px);
+        }
+
+        .t-toc__list {
+            list-style: none;
+            margin: 0;
+            padding: 0 12px 16px;
+            display: grid;
+            gap: 1px;
+            counter-reset: toc;
+            max-height: min(62vh, 560px);
+            overflow-y: auto;
+            overscroll-behavior: contain;
+            scrollbar-width: thin;
+            scrollbar-color: #cbd7e8 transparent;
+        }
+
+        .t-toc__list::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        .t-toc__list::-webkit-scrollbar-thumb {
+            background: #d6e0ee;
+            border-radius: 99px;
+        }
+
+        .t-toc a {
+            display: block;
+            padding: 8px 12px 8px 10px;
+            border-radius: 9px;
+            font-size: .865rem;
+            line-height: 1.45;
+            color: var(--t-body);
+            text-decoration: none;
+            border-left: 2px solid transparent;
+            transition: color .18s ease, background-color .18s ease, border-color .18s ease;
+        }
+
+        .t-toc a:hover {
+            color: var(--t-primary);
+            background: var(--t-bg-soft);
+        }
+
+        .t-toc a.is-current {
+            color: var(--t-primary);
+            background: var(--t-primary-soft);
+            border-left-color: var(--t-primary);
+            font-weight: 600;
+        }
+
+        @media (max-width: 1000px) {
+            .t-toc {
+                position: static;
+            }
+
+            .t-toc__list {
+                max-height: none;
+            }
+        }
+
+        /* ---------- Content ---------- */
+        .t-content {
+            background: var(--t-surface);
+            border: 1px solid var(--t-border);
+            border-radius: var(--t-radius);
+            box-shadow: var(--t-shadow-sm);
+            padding: clamp(26px, 4vw, 56px);
+        }
+
+        .t-intro {
+            padding-bottom: 26px;
+            margin-bottom: 8px;
+            border-bottom: 1px solid var(--t-border);
+            font-size: 1.02rem;
+            color: var(--t-body);
+        }
+
+        .t-section {
+            padding-block: 26px;
+            border-bottom: 1px solid var(--t-border);
+            scroll-margin-top: 96px;
+        }
+
+        .t-section:last-of-type {
+            border-bottom: 0;
+            padding-bottom: 8px;
+        }
+
+        .t-section h2 {
+            display: flex;
+            align-items: baseline;
+            gap: 12px;
+            font-size: clamp(1.12rem, 1.9vw, 1.3rem);
+            letter-spacing: -.012em;
+            margin-bottom: 14px;
+        }
+
+        .t-section h2 .t-num {
+            flex: 0 0 auto;
+            font-size: .78rem;
+            font-weight: 700;
+            letter-spacing: .04em;
+            color: var(--t-primary);
+            background: var(--t-primary-soft);
+            border-radius: 7px;
+            padding: 3px 8px;
+            transform: translateY(-1px);
+        }
+
+        .t-section h3 {
+            font-size: .98rem;
+            margin-top: 20px;
+            margin-bottom: 8px;
+            color: var(--t-text);
+        }
+
+        .t-section p {
+            margin-bottom: 12px;
+            max-width: 76ch;
+        }
+
+        .t-section p:last-child {
+            margin-bottom: 0;
+        }
+
+        .t-section ul,
+        .t-section ol {
+            margin: 0 0 14px;
+            padding-left: 22px;
+            max-width: 76ch;
+        }
+
+        .t-section ul {
+            list-style: disc;
+        }
+
+        .t-section ul li,
+        .t-section ol li {
+            margin-bottom: 8px;
+            padding-left: 4px;
+        }
+
+        .t-section ul li::marker {
+            color: var(--t-primary-2);
+        }
+
+        .t-section ol li::marker {
+            color: var(--t-primary);
+            font-weight: 600;
+        }
+
+        .t-section li:last-child {
+            margin-bottom: 0;
+        }
+
+        .t-section a {
+            color: var(--t-primary);
+            text-decoration: underline;
+            text-decoration-thickness: 1px;
+            text-underline-offset: 2px;
+        }
+
+        .t-section a:hover {
+            color: #1d4ed8;
+        }
+
+        /* ---------- Note callout ---------- */
+        .t-note {
+            margin: 18px 0 6px;
+            padding: 16px 20px;
+            border-radius: var(--t-radius-sm);
+            background: var(--t-primary-soft);
+            border: 1px solid #d8e6ff;
+            border-left: 3px solid var(--t-primary);
+            font-size: .94rem;
+            color: #1e3a8a;
+            max-width: 76ch;
+        }
+
+        .t-note p {
+            margin-bottom: 0;
+            color: inherit;
+        }
+
+        .t-note strong {
+            color: #1e3a8a;
+        }
+
+        /* ---------- Contact block ---------- */
+        .t-contact-card {
+            margin-top: 6px;
+            padding: clamp(20px, 3vw, 30px);
+            border: 1px solid var(--t-border);
+            border-radius: var(--t-radius-sm);
+            background: var(--t-bg-soft);
+            max-width: 76ch;
+        }
+
+        .t-contact-card h3 {
+            margin-top: 0;
+            font-size: 1rem;
+            margin-bottom: 14px;
+        }
+
+        .t-contact-card dl {
+            margin: 0;
+            display: grid;
+            grid-template-columns: auto 1fr;
+            gap: 10px 20px;
+            font-size: .95rem;
+        }
+
+        .t-contact-card dt {
+            color: var(--t-muted);
+            font-weight: 600;
+        }
+
+        .t-contact-card dd {
+            margin: 0;
+            color: var(--t-text);
+        }
+
+        .t-contact-card dd a {
+            color: var(--t-primary);
+        }
+
+        @media (max-width: 520px) {
+            .t-contact-card dl {
+                grid-template-columns: 1fr;
+                gap: 2px 0;
+            }
+
+            .t-contact-card dt {
+                margin-top: 10px;
+            }
+
+            .t-contact-card dt:first-child {
+                margin-top: 0;
+            }
+        }
+
+        /* ---------- Bottom actions ---------- */
+        .t-actions {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-top: 34px;
+            padding-top: 28px;
+            border-top: 1px solid var(--t-border);
+        }
+
+        /* ---------- Back to top ---------- */
+        .t-top {
+            position: fixed;
+            right: clamp(16px, 3vw, 28px);
+            bottom: clamp(16px, 3vw, 28px);
+            z-index: 80;
+            display: grid;
+            place-items: center;
+            width: 46px;
+            height: 46px;
+            border-radius: 50%;
+            background: #fff;
+            border: 1px solid var(--t-border-strong);
+            color: var(--t-text);
+            box-shadow: var(--t-shadow-md);
+            cursor: pointer;
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(10px);
+            transition: opacity .25s ease, transform .25s ease, visibility .25s ease, border-color .2s ease;
+        }
+
+        .t-top.is-visible {
+            opacity: 1;
+            visibility: visible;
+            transform: none;
+        }
+
+        .t-top:hover {
+            border-color: var(--t-primary);
+            color: var(--t-primary);
+        }
+
+        .t-top svg {
+            width: 18px;
+            height: 18px;
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            .t-top {
+                transition: none;
+            }
+        }
+
+        /* ---------- Footer ---------- */
+        .t-footer {
+            background: var(--t-bg-soft);
+            border-top: 1px solid var(--t-border);
+            padding-block: clamp(44px, 5vw, 64px) 24px;
+        }
+
+        .t-footer__grid {
+            display: grid;
+            grid-template-columns: 1.6fr 1fr 1fr 1.25fr;
+            gap: clamp(28px, 4vw, 56px);
+        }
+
+        @media (max-width: 900px) {
+            .t-footer__grid {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        @media (max-width: 560px) {
+            .t-footer__grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .t-footer h4 {
+            font-size: .76rem;
+            font-weight: 700;
+            letter-spacing: .14em;
+            text-transform: uppercase;
+            color: var(--t-text);
+            margin: 0 0 16px;
+        }
+
+        .t-footer ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: grid;
+            gap: 10px;
+        }
+
+        .t-footer a {
+            color: var(--t-body);
+            text-decoration: none;
+            font-size: .92rem;
+            transition: color .2s ease;
+        }
+
+        .t-footer a:hover {
+            color: var(--t-primary);
+        }
+
+        .t-footer address {
+            font-style: normal;
+            font-size: .92rem;
+            color: var(--t-body);
+            line-height: 1.8;
+        }
+
+        .t-footer__about p {
+            margin-top: 14px;
+            font-size: .92rem;
+            color: var(--t-muted);
+            max-width: 34ch;
+        }
+
+        .t-footer__bottom {
+            margin-top: clamp(30px, 4vw, 48px);
+            padding-top: 22px;
+            border-top: 1px solid var(--t-border);
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px 18px;
+            align-items: center;
+            justify-content: space-between;
+            font-size: .85rem;
+            color: var(--t-muted);
+        }
+
+        .t-footer__bottom a {
+            font-size: .85rem;
+        }
+
+        /* ---------- Print ---------- */
+        @media print {
+
+            .t-header,
+            .t-footer,
+            .t-toc,
+            .t-top,
+            .t-actions,
+            .t-skip {
+                display: none !important;
+            }
+
+            body.terms-page {
+                background: #fff;
+                color: #000;
+            }
+
+            .t-content {
+                border: 0;
+                box-shadow: none;
+                padding: 0;
+            }
+
+            .t-doc__grid {
+                display: block;
+            }
+
+            .t-section {
+                break-inside: avoid;
+            }
+
+            .t-section h2 .t-num {
+                background: none;
+                color: #000;
+                padding: 0;
+            }
+        }
+    </style>
+</head>
+
+<body class="terms-page">
+
+    <a class="t-skip" href="#main">Skip to content</a>
+
+    <!-- =========================================================
+     NAVBAR
+     Replace with the exact markup from index.html if it differs,
+     keeping the About / Contact links unchanged.
+     ========================================================= -->
+    <header class="t-header">
+        <div class="t-container t-nav">
+            <a href="index.html" class="t-logo"
+                aria-label="D2B – Design and Development for Business, home">D2B<span>.</span></a>
+
+            <nav class="nav-links" id="desktopNav" aria-label="Main navigation">
+                <a href="index.html#home">Home</a>
+                <a href="about.html">About</a>
+                <a href="index.html#services">Services</a>
+                <a href="index.html#industries">Industries</a>
+                <a href="index.html#work">Work</a>
+                <a href="index.html#developers">Developers</a>
+                <a href="index.html#process">Process</a>
+                <a href="index.html#contact">Contact</a>
+                <a href="index.html#contact" class="btn btn-primary">Discuss Your Project</a>
+            </nav>
+
+            <button class="t-burger" id="navToggle" type="button" aria-label="Toggle navigation menu"
+                aria-expanded="false" aria-controls="navLinks">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <main id="main">
+
+        <!-- =========================================================
+       HERO
+       ========================================================= -->
+        <section class="t-hero" aria-labelledby="page-title">
+            <div class="t-container t-hero__inner">
+                <span class="t-eyebrow">Legal information</span>
+                <h1 id="page-title">Terms &amp; Conditions</h1>
+                <p class="t-hero__desc">
+                    Please read these terms carefully before using our website or engaging with our services.
+                </p>
+
+                <!-- EDITABLE PLACEHOLDER: update the date below whenever these terms change -->
+                <p class="t-updated">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"
+                        stroke-linejoin="round" aria-hidden="true">
+                        <rect x="3.5" y="5" width="17" height="15.5" rx="2.5" />
+                        <path d="M3.5 9.5h17M8 3.5v3M16 3.5v3" />
+                    </svg>
+                    <span>Last updated: <time datetime="2025-01-01">1 January 2025</time></span>
+                </p>
+            </div>
+        </section>
+
+        <!-- =========================================================
+       DOCUMENT
+       ========================================================= -->
+        <div class="t-doc">
+            <div class="t-container t-doc__grid">
+
+                <!-- ---------- Table of contents ---------- -->
+                <details class="t-toc" id="toc" open>
+                    <summary class="t-toc__summary">Table of Contents</summary>
+                    <nav aria-label="Terms and conditions contents">
+                        <ol class="t-toc__list">
+                            <li><a href="#acceptance">1. Acceptance of Terms</a></li>
+                            <li><a href="#about-d2b">2. About D2B</a></li>
+                            <li><a href="#website-usage">3. Website Usage</a></li>
+                            <li><a href="#services">4. Services</a></li>
+                            <li><a href="#enquiries">5. Enquiries and Communication</a></li>
+                            <li><a href="#project-scope">6. Project Scope and Agreements</a></li>
+                            <li><a href="#pricing-payments">7. Pricing and Payments</a></li>
+                            <li><a href="#client-responsibilities">8. Client Responsibilities</a></li>
+                            <li><a href="#revisions">9. Revisions and Additional Work</a></li>
+                            <li><a href="#intellectual-property">10. Intellectual Property</a></li>
+                            <li><a href="#maintenance-support">11. Website Maintenance and Support</a></li>
+                            <li><a href="#third-party">12. Third-Party Services</a></li>
+                            <li><a href="#availability">13. Website Availability</a></li>
+                            <li><a href="#liability">14. Limitation of Liability</a></li>
+                            <li><a href="#confidentiality">15. Confidentiality</a></li>
+                            <li><a href="#termination">16. Termination and Cancellation</a></li>
+                            <li><a href="#external-links">17. External Links</a></li>
+                            <li><a href="#changes">18. Changes to These Terms</a></li>
+                            <li><a href="#governing-law">19. Governing Law and Jurisdiction</a></li>
+                            <li><a href="#contact">20. Contact Information</a></li>
+                        </ol>
+                    </nav>
+                </details>
+
+                <!-- ---------- Content ---------- -->
+                <article class="t-content">
+
+                    <p class="t-intro">
+                        These Terms &amp; Conditions set out the general basis on which D2B – Design &amp;
+                        Development for Business makes this website available and describes how our services
+                        are generally offered. They apply to visitors to this website and to anyone who
+                        contacts us through it. Individual projects are governed by their own written
+                        proposals or project agreements, which take precedence for project-specific matters.
+                    </p>
+
+                    <!-- 1 -->
+                    <section class="t-section" id="acceptance" aria-labelledby="acceptance-h">
+                        <h2 id="acceptance-h"><span class="t-num" aria-hidden="true">01</span>Acceptance of Terms</h2>
+                        <p>
+                            By accessing, browsing or otherwise using this website, you indicate that you have
+                            read, understood and accept these Terms &amp; Conditions, together with any other
+                            policies published on this website. If you do not agree with these terms, please
+                            discontinue use of the website.
+                        </p>
+                        <p>
+                            These website terms are general in nature. Where a specific project, engagement or
+                            service is undertaken, a separate written proposal, quotation, statement of work or
+                            service agreement may apply. In the event of any inconsistency between these website
+                            terms and a signed or formally accepted project agreement, the project agreement will
+                            govern the matters it covers.
+                        </p>
+                    </section>
+
+                    <!-- 2 -->
+                    <section class="t-section" id="about-d2b" aria-labelledby="about-d2b-h">
+                        <h2 id="about-d2b-h"><span class="t-num" aria-hidden="true">02</span>About D2B</h2>
+                        <p>
+                            D2B stands for <strong>Design &amp; Development for Business</strong>. D2B works with
+                            businesses on website development, software and web application development, and
+                            related digital business solutions.
+                        </p>
+                        <p>
+                            D2B is based in Giridih, Jharkhand, India, and works with clients across India. The
+                            description of our activities on this website is provided for general information and
+                            does not constitute a representation about any particular registration, certification,
+                            affiliation or regulatory status.
+                        </p>
+                    </section>
+
+                    <!-- 3 -->
+                    <section class="t-section" id="website-usage" aria-labelledby="website-usage-h">
+                        <h2 id="website-usage-h"><span class="t-num" aria-hidden="true">03</span>Website Usage</h2>
+                        <p>
+                            You agree to use this website only for lawful purposes and in a manner that does not
+                            infringe the rights of, or restrict or inhibit the use and enjoyment of this website
+                            by, any other person. In particular, you must not:
+                        </p>
+                        <ul>
+                            <li>attempt to gain unauthorised access to this website, its servers, systems or any
+                                connected database;</li>
+                            <li>interfere with, disrupt, overload or impair the normal functioning, security or
+                                availability of the website;</li>
+                            <li>introduce malicious code, automated scraping, or any other harmful or disruptive
+                                technology;</li>
+                            <li>submit information through any form on this website that is false, misleading, unlawful
+                                or that you are not authorised to provide;</li>
+                            <li>use the website in any way that breaches applicable law or the rights of any third
+                                party.</li>
+                        </ul>
+                        <p>
+                            We reserve the right to restrict or refuse access to this website where we reasonably
+                            believe these requirements have not been met.
+                        </p>
+                    </section>
+
+                    <!-- 4 -->
+                    <section class="t-section" id="services" aria-labelledby="services-h">
+                        <h2 id="services-h"><span class="t-num" aria-hidden="true">04</span>Services</h2>
+                        <p>
+                            D2B provides digital services which may include business website development,
+                            e-commerce development, custom web applications, website redesign, business
+                            automation, and website maintenance and support. The services described on this
+                            website are indicative of our general areas of work.
+                        </p>
+                        <p>
+                            The actual scope of any service — including deliverables, features, timelines,
+                            revisions, dependencies and commercial terms — is determined by the individual
+                            proposal, quotation or project agreement agreed with the client. Descriptions on this
+                            website do not by themselves constitute a binding offer, quotation or commitment to
+                            deliver any particular feature, timeline or outcome.
+                        </p>
+                        <div class="t-note">
+                            <p>
+                                <strong>Please note:</strong> information published on this website is general in
+                                nature and may be updated or clarified during direct discussion. A project only
+                                begins once the applicable written agreement has been accepted.
+                            </p>
+                        </div>
+                    </section>
+
+                    <!-- 5 -->
+                    <section class="t-section" id="enquiries" aria-labelledby="enquiries-h">
+                        <h2 id="enquiries-h"><span class="t-num" aria-hidden="true">05</span>Enquiries and Communication
+                        </h2>
+                        <p>
+                            Submitting an enquiry through this website, by email or by telephone does not
+                            automatically create a client relationship, a contract or an obligation on D2B to
+                            provide services. All enquiries are subject to review, and acceptance of any
+                            engagement is at our discretion and is confirmed through a written proposal or
+                            project agreement.
+                        </p>
+                        <p>
+                            By submitting an enquiry, you agree that D2B may contact you using the details you
+                            provide in order to respond to your enquiry and discuss your requirements. You are
+                            responsible for ensuring that the contact information you provide is accurate,
+                            current and belongs to you or to an organisation you are authorised to represent.
+                        </p>
+                    </section>
+
+                    <!-- 6 -->
+                    <section class="t-section" id="project-scope" aria-labelledby="project-scope-h">
+                        <h2 id="project-scope-h"><span class="t-num" aria-hidden="true">06</span>Project Scope and
+                            Agreements</h2>
+                        <p>
+                            For any project undertaken, the deliverables, features, timelines, revision limits,
+                            payment schedules and the responsibilities of each party should be confirmed in a
+                            written proposal or project agreement before work begins.
+                        </p>
+                        <p>
+                            Requests for features, content, integrations or functionality that fall outside the
+                            agreed scope may require an additional quotation and may affect the project price and
+                            delivery timeline. Any such change should be confirmed in writing before it is
+                            implemented.
+                        </p>
+                        <div class="t-note">
+                            <p>
+                                <strong>Priority of documents:</strong> where a signed or formally accepted project
+                                agreement exists, that agreement takes priority over these general website terms in
+                                respect of the project it covers.
+                            </p>
+                        </div>
+                    </section>
+
+                    <!-- 7 -->
+                    <section class="t-section" id="pricing-payments" aria-labelledby="pricing-payments-h">
+                        <h2 id="pricing-payments-h"><span class="t-num" aria-hidden="true">07</span>Pricing and Payments
+                        </h2>
+                        <p>
+                            Pricing for services is communicated through individual proposals or quotations
+                            prepared for each enquiry. Prices are not published as a fixed or universal rate on
+                            this website, because the cost of a project depends on its specific requirements.
+                        </p>
+                        <p>
+                            The applicable payment milestones, advance payments, applicable taxes, invoicing
+                            arrangements and due dates will be stated in the relevant proposal or project
+                            agreement. Where an agreement provides for a payment schedule, invoices are payable
+                            in accordance with that schedule.
+                        </p>
+                        <p>
+                            The consequences of late or overdue payment, including any suspension of work or
+                            delivery, will follow the terms agreed in the applicable contract. Nothing on this
+                            website constitutes a promise of any particular refund, credit or payment arrangement.
+                        </p>
+                    </section>
+
+                    <!-- 8 -->
+                    <section class="t-section" id="client-responsibilities" aria-labelledby="client-responsibilities-h">
+                        <h2 id="client-responsibilities-h"><span class="t-num" aria-hidden="true">08</span>Client
+                            Responsibilities</h2>
+                        <p>
+                            The quality and timeliness of a project depend in part on the information and
+                            materials provided by the client. Clients are responsible for:
+                        </p>
+                        <ul>
+                            <li>providing accurate content, images, documents, access credentials and project
+                                information required to carry out the work;</li>
+                            <li>ensuring that they hold the necessary rights, licences and permissions for all content
+                                and materials supplied to D2B;</li>
+                            <li>reviewing and approving deliverables, drafts and milestones within a reasonable time;
+                            </li>
+                            <li>nominating a point of contact who is authorised to provide instructions and approvals;
+                            </li>
+                            <li>ensuring that any third-party accounts, domains or services required for the project
+                                remain accessible and in good standing.</li>
+                        </ul>
+                        <p>
+                            Delays in receiving required materials, feedback or approvals may affect the project
+                            timeline. Where such delays occur, revised timelines may be agreed in writing.
+                        </p>
+                    </section>
+
+                    <!-- 9 -->
+                    <section class="t-section" id="revisions" aria-labelledby="revisions-h">
+                        <h2 id="revisions-h"><span class="t-num" aria-hidden="true">09</span>Revisions and Additional
+                            Work</h2>
+                        <p>
+                            The number of revision rounds, and the changes included within each round, depend on
+                            the relevant project agreement. Revision requests should be consolidated and provided
+                            through the agreed communication channel.
+                        </p>
+                        <p>
+                            Work that falls outside the agreed scope — including new features, additional pages,
+                            new integrations, or significant changes of direction after approval — may require a
+                            separate quotation and may affect the delivery timeline. Such additional work will
+                            normally be confirmed in writing before it is carried out.
+                        </p>
+                    </section>
+
+                    <!-- 10 -->
+                    <section class="t-section" id="intellectual-property" aria-labelledby="intellectual-property-h">
+                        <h2 id="intellectual-property-h"><span class="t-num" aria-hidden="true">10</span>Intellectual
+                            Property</h2>
+                        <p>
+                            Ownership and licensing of the source code, designs, graphics, content and other
+                            deliverables created in the course of a project are governed by the applicable
+                            project agreement. Clients should refer to that agreement for the specific terms
+                            relating to ownership, assignment, licensing and handover of deliverables.
+                        </p>
+                        <p>
+                            Third-party fonts, software, libraries, plugins, stock assets and services used in a
+                            project remain subject to the licence terms of their respective owners and providers.
+                            Any licence fees, renewals or usage restrictions associated with such third-party
+                            materials are separate from the project terms unless expressly stated otherwise.
+                        </p>
+                        <p>
+                            The content, design and branding of this website remain the property of D2B or its
+                            licensors and may not be reproduced or used without permission, except as permitted
+                            by applicable law.
+                        </p>
+                    </section>
+
+                    <!-- 11 -->
+                    <section class="t-section" id="maintenance-support" aria-labelledby="maintenance-support-h">
+                        <h2 id="maintenance-support-h"><span class="t-num" aria-hidden="true">11</span>Website
+                            Maintenance and Support</h2>
+                        <p>
+                            Maintenance, hosting, domain renewal, software updates, security patching, backups
+                            and technical support are provided only where they are included in the relevant
+                            project agreement, support plan or subscription. They are not implied by the
+                            provision of development services alone.
+                        </p>
+                        <p>
+                            The scope of support, the channels through which support is provided, and any
+                            applicable response times are determined by the agreed terms. Where no maintenance or
+                            support arrangement is in place, ongoing updates and assistance may be offered
+                            separately.
+                        </p>
+                    </section>
+
+                    <!-- 12 -->
+                    <section class="t-section" id="third-party" aria-labelledby="third-party-h">
+                        <h2 id="third-party-h"><span class="t-num" aria-hidden="true">12</span>Third-Party Services</h2>
+                        <p>
+                            Projects may involve third-party services such as web hosting, domain registration,
+                            email services, content delivery networks, APIs, plugins, analytics tools or payment
+                            gateways. These services are provided and controlled by their respective providers.
+                        </p>
+                        <p>
+                            The availability, performance, pricing, security and terms of use of third-party
+                            services are determined by those providers. D2B does not control and is not
+                            responsible for the policies, downtime, changes or discontinuation of third-party
+                            services, although we may assist in integrating or configuring them as part of an
+                            agreed scope of work.
+                        </p>
+                    </section>
+
+                    <!-- 13 -->
+                    <section class="t-section" id="availability" aria-labelledby="availability-h">
+                        <h2 id="availability-h"><span class="t-num" aria-hidden="true">13</span>Website Availability
+                        </h2>
+                        <p>
+                            We aim to keep this website available and accurate, but we cannot guarantee that it
+                            will be available continuously, uninterrupted, or free from errors. Access may be
+                            suspended, restricted or unavailable due to scheduled maintenance, technical issues,
+                            security measures, or outages affecting third-party infrastructure.
+                        </p>
+                        <p>
+                            We may update, modify or remove content from this website at any time without prior
+                            notice.
+                        </p>
+                    </section>
+
+                    <!-- 14 -->
+                    <section class="t-section" id="liability" aria-labelledby="liability-h">
+                        <h2 id="liability-h"><span class="t-num" aria-hidden="true">14</span>Limitation of Liability
+                        </h2>
+                        <p>
+                            To the maximum extent permitted by applicable law, D2B shall not be liable for any
+                            indirect, incidental, special, consequential or punitive loss or damage, or for any
+                            loss of profits, revenue, data, goodwill or business opportunity, arising out of or in
+                            connection with the use of this website or reliance on the general information
+                            published on it.
+                        </p>
+                        <p>
+                            Nothing in these terms excludes or limits any liability that cannot lawfully be
+                            excluded or limited under applicable law, including liability arising from fraud,
+                            wilful misconduct, or any other liability that applicable law does not permit to be
+                            excluded or restricted.
+                        </p>
+                        <p>
+                            Where a separate project agreement applies, that agreement may contain additional or
+                            alternative provisions relating to liability and will govern the relevant project to
+                            the extent of any inconsistency with this section.
+                        </p>
+                    </section>
+
+                    <!-- 15 -->
+                    <section class="t-section" id="confidentiality" aria-labelledby="confidentiality-h">
+                        <h2 id="confidentiality-h"><span class="t-num" aria-hidden="true">15</span>Confidentiality</h2>
+                        <p>
+                            Information shared with D2B in connection with an enquiry or project — such as
+                            business details, credentials, internal documents or product plans — should be
+                            handled responsibly and used only for the purpose for which it is provided.
+                        </p>
+                        <p>
+                            Specific confidentiality obligations, including their scope, exceptions and duration,
+                            may be defined in individual project agreements. Clients are encouraged to confirm
+                            any confidentiality requirements in writing before sharing sensitive information.
+                            Please avoid sending sensitive credentials through unsecured channels.
+                        </p>
+                    </section>
+
+                    <!-- 16 -->
+                    <section class="t-section" id="termination" aria-labelledby="termination-h">
+                        <h2 id="termination-h"><span class="t-num" aria-hidden="true">16</span>Termination and
+                            Cancellation</h2>
+                        <p>
+                            Project cancellation, termination of an engagement, settlement of outstanding
+                            payments and the handover of completed work should follow the applicable project
+                            agreement.
+                        </p>
+                        <p>
+                            This website does not set out a universal cancellation, refund or termination policy.
+                            The consequences of cancelling or terminating a project depend on the stage of work,
+                            the terms agreed between the parties and any applicable law. Where no separate
+                            agreement applies, the parties should confirm the position in writing before a project
+                            is discontinued.
+                        </p>
+                    </section>
+
+                    <!-- 17 -->
+                    <section class="t-section" id="external-links" aria-labelledby="external-links-h">
+                        <h2 id="external-links-h"><span class="t-num" aria-hidden="true">17</span>External Links</h2>
+                        <p>
+                            This website may contain links to external websites, tools or resources that are not
+                            operated by D2B. Such links are provided for convenience or reference only.
+                        </p>
+                        <p>
+                            D2B does not control and is not responsible for the content, accuracy, availability or
+                            privacy and other policies of any external website. Visiting an external website is at
+                            your own discretion, and you should review that website's own terms and policies.
+                        </p>
+                    </section>
+
+                    <!-- 18 -->
+                    <section class="t-section" id="changes" aria-labelledby="changes-h">
+                        <h2 id="changes-h"><span class="t-num" aria-hidden="true">18</span>Changes to These Terms</h2>
+                        <p>
+                            These Terms &amp; Conditions may be updated, amended or replaced from time to time to
+                            reflect changes in our services, website or applicable requirements. The revised terms
+                            will become effective when they are published on this page.
+                        </p>
+                        <p>
+                            The "Last updated" date shown at the top of this page indicates the most recent
+                            revision. You are encouraged to review this page periodically. Continuing to use the
+                            website after changes are published indicates acceptance of the updated terms.
+                        </p>
+                        <p>
+                            Changes to these website terms do not alter the terms of any project-specific
+                            agreement already in force, which will continue to be governed by its own terms.
+                        </p>
+                    </section>
+
+                    <!-- 19 -->
+                    <section class="t-section" id="governing-law" aria-labelledby="governing-law-h">
+                        <h2 id="governing-law-h"><span class="t-num" aria-hidden="true">19</span>Governing Law and
+                            Jurisdiction</h2>
+                        <p>
+                            These website terms are governed by and construed in accordance with the laws of
+                            India, subject to any mandatory provisions of applicable law that cannot be excluded
+                            by agreement.
+                        </p>
+                        <p>
+                            Subject to the foregoing and to any mandatory legal requirements, disputes arising out
+                            of or in connection with the use of this website shall be subject to the jurisdiction
+                            of the competent courts at Giridih, Jharkhand, India.
+                        </p>
+                        <p>
+                            Project-specific agreements may contain their own governing law, dispute resolution
+                            or jurisdiction provisions, which will apply to the relevant project.
+                        </p>
+                    </section>
+
+                    <!-- 20 -->
+                    <section class="t-section" id="contact" aria-labelledby="contact-h">
+                        <h2 id="contact-h"><span class="t-num" aria-hidden="true">20</span>Contact Information</h2>
+                        <p>
+                            If you have any questions about these Terms &amp; Conditions, or about how our
+                            services are offered, you can contact us using the details below.
+                        </p>
+
+                        <div class="t-contact-card">
+                            <h3>D2B – Design &amp; Development for Business</h3>
+                            <dl>
+                                <dt>Email</dt>
+                                <dd><a href="mailto:d2bdigital79@gmail.com">d2bdigital79@gmail.com</a></dd>
+
+                                <dt>Phone</dt>
+                                <dd><a href="tel:+917488343041">+91 74883 43041</a></dd>
+
+                                <dt>Location</dt>
+                                <dd>Giridih, Jharkhand, India</dd>
+
+                                <dt>Service area</dt>
+                                <dd>All India</dd>
+                            </dl>
+                        </div>
+
+                        <div class="t-actions">
+                            <a class="t-btn t-btn--primary" href="index.html#contact">Contact Us</a>
+                            <a class="t-btn t-btn--ghost" href="index.html">Back to Home</a>
+                        </div>
+                    </section>
+
+                </article>
+            </div>
+        </div>
+    </main>
+
+    <button class="t-top" id="backToTop" type="button" aria-label="Back to top">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round" aria-hidden="true">
+            <path d="M12 19V5" />
+            <path d="m5.5 11.5 6.5-6.5 6.5 6.5" />
+        </svg>
+    </button>
+
+    <!-- =========================================================
+     FOOTER
+     Replace with the exact markup from index.html if it differs.
+     ========================================================= -->
+    <footer class="t-footer">
+        <div class="t-container">
+            <div class="t-footer__grid">
+                <div class="t-footer__about">
+                    <a href="index.html" class="t-logo"
+                        aria-label="D2B – Design and Development for Business, home">D2B<span>.</span></a>
+                    <p>Design &amp; Development for Business. Helping businesses build a professional digital presence.
+                    </p>
+                </div>
+
+                <div>
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="index.html#services">Services</a></li>
+                        <li><a href="index.html#work">Work</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="terms-and-conditions.html" aria-current="page">Terms &amp; Conditions</a></li>
+                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4>Contact</h4>
+                    <address>
+                        Giridih, Jharkhand, India<br>
+                        Serving clients across India<br>
+                        <a href="mailto:d2bdigital79@gmail.com">d2bdigital79@gmail.com</a><br>
+                        <a href="tel:+917488343041">+91 74883 43041</a>
+                    </address>
+                </div>
+            </div>
+
+            <div class="t-footer__bottom">
+                <span>&copy; <span id="year">2025</span> D2B – Design &amp; Development for Business. All rights
+                    reserved.</span>
+                <a href="#main">Back to top</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        (function () {
+            'use strict';
+
+            /* ---------------- Mobile navigation ---------------- */
+            var toggle = document.getElementById('navToggle');
+            var links = document.getElementById('navLinks');
+
+            function closeNav() {
+                if (!links || !toggle) return;
+                links.classList.remove('is-open');
+                toggle.classList.remove('is-open');
+                toggle.setAttribute('aria-expanded', 'false');
+            }
+
+            if (toggle && links) {
+                toggle.addEventListener('click', function () {
+                    var isOpen = links.classList.toggle('is-open');
+                    toggle.classList.toggle('is-open', isOpen);
+                    toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+                });
+
+                links.addEventListener('click', function (e) {
+                    if (e.target.tagName === 'A') closeNav();
+                });
+
+                document.addEventListener('keydown', function (e) {
+                    if (e.key === 'Escape') closeNav();
+                });
+
+                window.addEventListener('resize', function () {
+                    if (window.innerWidth > 900) closeNav();
+                });
+            }
+
+            /* ---------------- Table of contents behaviour ---------------- */
+            var toc = document.getElementById('toc');
+
+            function syncToc() {
+                if (!toc) return;
+                // Collapsed by default on smaller screens, expanded on desktop.
+                toc.open = window.innerWidth > 1000;
+            }
+            syncToc();
+
+            var resizeTimer;
+            window.addEventListener('resize', function () {
+                clearTimeout(resizeTimer);
+                resizeTimer = setTimeout(syncToc, 150);
+            });
+
+            // Close the TOC after a link is tapped on mobile.
+            if (toc) {
+                toc.addEventListener('click', function (e) {
+                    if (e.target.tagName === 'A' && window.innerWidth <= 1000) {
+                        toc.open = false;
+                    }
+                });
+            }
+
+            /* ---------------- Active section highlighting ---------------- */
+            var tocLinks = Array.prototype.slice.call(
+                document.querySelectorAll('.t-toc__list a')
+            );
+            var sections = tocLinks
+                .map(function (a) { return document.getElementById(a.getAttribute('href').slice(1)); })
+                .filter(Boolean);
+
+            function setActive(id) {
+                tocLinks.forEach(function (a) {
+                    var isCurrent = a.getAttribute('href') === '#' + id;
+                    a.classList.toggle('is-current', isCurrent);
+                    if (isCurrent) {
+                        a.setAttribute('aria-current', 'true');
+                    } else {
+                        a.removeAttribute('aria-current');
+                    }
+                });
+            }
+
+            if ('IntersectionObserver' in window && sections.length) {
+                var visible = new Map();
+
+                var sectionObserver = new IntersectionObserver(function (entries) {
+                    entries.forEach(function (entry) {
+                        if (entry.isIntersecting) {
+                            visible.set(entry.target.id, entry.boundingClientRect.top);
+                        } else {
+                            visible.delete(entry.target.id);
+                        }
+                    });
+
+                    if (visible.size) {
+                        var bestId = null;
+                        var bestTop = Infinity;
+                        visible.forEach(function (top, id) {
+                            if (top < bestTop) { bestTop = top; bestId = id; }
+                        });
+                        if (bestId) setActive(bestId);
+                    }
+                }, { rootMargin: '-96px 0px -55% 0px', threshold: 0 });
+
+                sections.forEach(function (s) { sectionObserver.observe(s); });
+                setActive(sections[0].id);
+            }
+
+            /* ---------------- Back to top ---------------- */
+            var topBtn = document.getElementById('backToTop');
+            var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+            if (topBtn) {
+                var ticking = false;
+
+                function updateTopBtn() {
+                    var show = window.scrollY > 600;
+                    topBtn.classList.toggle('is-visible', show);
+                    ticking = false;
+                }
+
+                window.addEventListener('scroll', function () {
+                    if (!ticking) {
+                        window.requestAnimationFrame(updateTopBtn);
+                        ticking = true;
+                    }
+                }, { passive: true });
+
+                updateTopBtn();
+
+                topBtn.addEventListener('click', function () {
+                    window.scrollTo({
+                        top: 0,
+                        behavior: reduceMotion ? 'auto' : 'smooth'
+                    });
+                    var main = document.getElementById('main');
+                    if (main) {
+                        main.setAttribute('tabindex', '-1');
+                        main.focus({ preventScroll: true });
+                    }
+                });
+            }
+
+            /* ---------------- Copyright year ---------------- */
+            var yearEl = document.getElementById('year');
+            if (yearEl) yearEl.textContent = new Date().getFullYear();
+        })();
+    </script>
+
+    <!-- Structured data — verified information only -->
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Terms & Conditions | D2B",
+  "url": "https://your-domain.com/terms-and-conditions.html",
+  "description": "Terms and conditions governing the use of the D2B website and the general basis on which its services are offered.",
+  "publisher": {
+    "@type": "Organization",
+    "name": "D2B",
+    "alternateName": "Design & Development for Business",
+    "email": "d2bdigital79@gmail.com",
+    "telephone": "+917488343041",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Giridih",
+      "addressRegion": "Jharkhand",
+      "addressCountry": "IN"
+    },
+    "areaServed": { "@type": "Country", "name": "India" }
+  }
+}
+</script>
+
+</body>
+
+</html>

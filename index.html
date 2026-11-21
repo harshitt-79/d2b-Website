@@ -1,0 +1,1427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="description"
+        content="D2B designs and develops modern websites and digital experiences that help businesses build trust, reach customers and grow online.">
+    <meta name="theme-color" content="#172B35">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://d2b.digital/">
+    <meta property="og:title" content="D2B � Technology That Moves Business Forward">
+    <meta property="og:description"
+        content="D2B designs and develops modern websites and digital experiences that help businesses build trust, reach customers and grow online.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://d2b.digital/">
+    <meta property="og:image" content="https://d2b.digital/og-image.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="D2B � Technology That Moves Business Forward">
+    <meta name="twitter:description"
+        content="D2B designs and develops modern websites and digital experiences that help businesses build trust, reach customers and grow online.">
+    <link rel="icon" type="image/svg+xml"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90' font-weight='bold' fill='%232563EB'>D2B</text></svg>">
+    <title>D2B � Technology That Moves Business Forward</title>
+    <!-- Modern sans-serif typography: Space Grotesk + Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2 family=Space+Grotesk:wght@400;500;600&family=Inter:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+    <script src="main.js" defer></script>
+</head>
+
+<body>
+    <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">D2B<span>.</span></a>
+            <nav class="nav-links" id="desktopNav" aria-label="Main navigation">
+                <a href="#home">Home</a>
+                <a href="about.html">About</a>
+                <a href="#services">Services</a>
+                <a href="#industries">Industries</a>
+                <a href="#work">Work</a>
+                <a href="#developers">Developers</a>
+                <a href="#process">Process</a>
+                <a href="#contact">Contact</a>
+                <a href="#contact" class="btn btn-primary">Discuss Your Project</a>
+            </nav>
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Open menu" aria-expanded="false">
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </button>
+        </div>
+    </header>
+
+    <div class="mobile-nav" id="mobileNav" aria-hidden="true">
+        <div class="nav-content">
+            <a href="#home">Home</a>
+            <a href="#services">Services</a>
+            <a href="#industries">Industries</a>
+            <a href="#work">Work</a>
+            <a href="#developers">Developers</a>
+            <a href="#process">Process</a>
+            <a href="#contact">Contact</a>
+            <a href="#contact" class="btn btn-primary">Discuss Your Project →</a>
+        </div>
+    </div>
+
+    <main>
+        <!-- Hero -->
+        <section id="home" class="hero-section">
+            <div class="container">
+                <div class="hero-grid">
+                    <div class="hero-content reveal">
+                        <h1>We Build Digital Solutions That Help Businesses Grow.</h1>
+                        <p class="hero-subtitle">D2B designs and develops modern websites that help businesses build
+                            trust, reach customers and connect with their audience.</p>
+                        <div class="hero-actions">
+                            <a href="#contact" class="btn btn-primary btn-arrow">Discuss Your Project
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                                    <polyline points="12 5 19 12 12 19"></polyline>
+                                </svg>
+                            </a>
+                            <a href="#work" class="btn btn-outline">Explore Our Services</a>
+                        </div>
+                        <div class="trust-strip">
+                            <span>CUSTOM DESIGN</span>
+                            <span class="sep"></span>
+                            <span>BUSINESS FOCUSED</span>
+                            <span class="sep"></span>
+                            <span>MOBILE FIRST</span>
+                            <span class="sep"></span>
+                            <span>RESPONSIVE</span>
+                            <span class="sep"></span>
+                            <span>SCALABLE</span>
+                        </div>
+                    </div>
+                    <div class="hero-visual reveal reveal-delay-2">
+                        <div class="glow-orb glow-orb-1"></div>
+                        <div class="glow-orb glow-orb-2"></div>
+                        <div class="hero-comp">
+                            <div class="browser-window browser-main">
+                                <div class="browser-bar">
+                                    <div class="browser-dot active"></div>
+                                    <div class="browser-dot"></div>
+                                    <div class="browser-dot"></div>
+                                </div>
+                                <div class="browser-content">
+                                    <div class="browser-row"></div>
+                                    <div class="browser-row medium"></div>
+                                    <div class="browser-row short"></div>
+                                    <div class="browser-row accent"></div>
+                                    <div class="browser-row medium"></div>
+                                    <div class="browser-row short"></div>
+                                </div>
+                            </div>
+                            <div class="browser-window browser-secondary">
+                                <div class="browser-bar">
+                                    <div class="browser-dot active"></div>
+                                    <div class="browser-dot"></div>
+                                </div>
+                                <div class="browser-content browser-content-sm">
+                                    <div class="browser-row"></div>
+                                    <div class="browser-row medium"></div>
+                                    <div class="browser-row accent"></div>
+                                </div>
+                            </div>
+                            <div class="float-card float-card-1">
+                                <span class="fc-dot"></span>Live Preview
+                            </div>
+                            <div class="float-card float-card-2">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                                    <line x1="8" y1="21" x2="16" y2="21"></line>
+                                    <line x1="12" y1="17" x2="12" y2="21"></line>
+                                </svg>
+                                Mobile Ready
+                            </div>
+                            <div class="float-card float-card-3">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+                                </svg>
+                                Performance
+                            </div>
+                            <div class="decorative-circle dc-1"></div>
+                            <div class="decorative-circle dc-2"></div>
+                            <div class="decorative-circle dc-3"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Business Problem -->
+        <section style="background:var(--surface);">
+            <div class="container">
+                <h2 class="reveal">Your Website Is More Than A Digital Address.</h2>
+                <p class="section-subtitle reveal reveal-delay-1">For many customers, your website is their first
+                    impression of your business.
+                </p>
+                <div class="cards-grid reveal reveal-delay-2">
+                    <div class="card">
+                        <div class="number-accent">01</div>
+                        <h3>No Professional Online Presence</h3>
+                        <p style="color:var(--text-secondary); margin-top:0.4rem;">Your business is invisible to online
+                            customers.</p>
+                    </div>
+                    <div class="card">
+                        <div class="number-accent">02</div>
+                        <h3>Outdated Website</h3>
+                        <p style="color:var(--text-secondary); margin-top:0.4rem;">An old design signals an old
+                            business.</p>
+                    </div>
+                    <div class="card">
+                        <div class="number-accent">03</div>
+                        <h3>Poor Mobile Experience</h3>
+                        <p style="color:var(--text-secondary); margin-top:0.4rem;">Customers leave if your site isn't
+                            mobile-friendly.</p>
+                    </div>
+                    <div class="card">
+                        <div class="number-accent">04</div>
+                        <h3>Customers Can't Find Information</h3>
+                        <p style="color:var(--text-secondary); margin-top:0.4rem;">Confusing layouts turn visitors away.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <div class="number-accent">05</div>
+                        <h3>Doesn't Reflect Your Brand</h3>
+                        <p style="color:var(--text-secondary); margin-top:0.4rem;">Generic designs fail to tell your
+                            story.</p>
+                    </div>
+                </div>
+                <p class="reveal reveal-delay-3"
+                    style="font-size:1.9rem; font-family:var(--font-heading); margin-top:55px; color:var(--primary-dark);">
+                    That's where D2B comes in.
+                </p>
+            </div>
+        </section>
+
+        <!-- Business Value -->
+        <section>
+            <div class="container">
+                <span class="section-label reveal">Why It Matters</span>
+                <h2 class="reveal reveal-delay-1">Built Around What Your Business Needs.</h2>
+                <p class="section-subtitle reveal reveal-delay-1">Every feature, every pixel, every line of code serves
+                    your business goals.</p>
+                <div class="cards-grid">
+                    <div class="card reveal reveal-delay-1">
+                        <div class="number-accent">01</div>
+                        <h3>Build Trust</h3>
+                        <p style="color:var(--text-secondary);">A professional website creates a stronger first
+                            impression and builds credibility with your audience.</p>
+                        <a href="#contact" class="card-link">Learn more
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12 5 19 12 12 19"></polyline>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="card reveal reveal-delay-2">
+                        <div class="number-accent">02</div>
+                        <h3>Reach More Customers</h3>
+                        <p style="color:var(--text-secondary);">Make your business easier to discover online with
+                            search-friendly, modern websites.</p>
+                        <a href="#contact" class="card-link">Learn more
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12 5 19 12 12 19"></polyline>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="card reveal reveal-delay-3">
+                        <div class="number-accent">03</div>
+                        <h3>Showcase Your Brand</h3>
+                        <p style="color:var(--text-secondary);">Present your products and services with a design that
+                            truly represents your brand.</p>
+                        <a href="#contact" class="card-link">Learn more
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12 5 19 12 12 19"></polyline>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="card reveal reveal-delay-4">
+                        <div class="number-accent">04</div>
+                        <h3>Generate Enquiries</h3>
+                        <p style="color:var(--text-secondary);">Make it easy for potential customers to contact you and
+                            turn visitors into leads.</p>
+                        <a href="#contact" class="card-link">Learn more
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12 5 19 12 12 19"></polyline>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="card reveal reveal-delay-5">
+                        <div class="number-accent">05</div>
+                        <h3>Improve Customer Experience</h3>
+                        <p style="color:var(--text-secondary);">Give customers the information they need quickly and
+                            keep them engaged.</p>
+                        <a href="#contact" class="card-link">Learn more
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12 5 19 12 12 19"></polyline>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="card reveal reveal-delay-5">
+                        <div class="number-accent">06</div>
+                        <h3>Build For Growth</h3>
+                        <p style="color:var(--text-secondary);">Create a digital foundation that can evolve with your
+                            business as it grows.</p>
+                        <a href="#contact" class="card-link">Learn more
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12 5 19 12 12 19"></polyline>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services -->
+        <section id="services" style="background:var(--surface);">
+            <div class="container">
+                <span class="section-label reveal">What We Do</span>
+                <h2 class="reveal reveal-delay-1">What Can We Build For You </h2>
+                <p class="section-subtitle reveal reveal-delay-1">Tailored digital solutions for businesses across
+                    industries.</p>
+                <div class="cards-grid">
+                    <div class="card reveal reveal-delay-1">
+                        <div class="number-accent">01</div>
+                        <h3>Business Websites</h3>
+                        <p style="color:var(--text-secondary);">Modern websites designed around your business goals and
+                            customer needs.</p>
+                        <div class="service-features">
+                            <div class="feature-group">
+                                <span class="feature-label">Included</span>
+                                <ul>
+                                    <li>Responsive design</li>
+                                    <li>Multiple pages</li>
+                                    <li>Contact section</li>
+                                    <li>Basic SEO</li>
+                                </ul>
+                            </div>
+                            <div class="feature-group">
+                                <span class="feature-label">Optional</span>
+                                <ul>
+                                    <li>CMS integration</li>
+                                    <li>Admin panel</li>
+                                    <li>Advanced integrations</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <a href="#contact" class="card-link">Discuss Your Requirements
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12 5 19 12 12 19"></polyline>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="card reveal reveal-delay-2">
+                        <div class="number-accent">02</div>
+                        <h3>Restaurant & Cafe Websites</h3>
+                        <p style="color:var(--text-secondary);">Beautiful digital experiences for restaurants, cafes and
+                            food businesses.</p>
+                        <div class="service-features">
+                            <div class="feature-group">
+                                <span class="feature-label">Included</span>
+                                <ul>
+                                    <li>Menu display</li>
+                                    <li>Gallery</li>
+                                    <li>Reservation form</li>
+                                    <li>Mobile optimized</li>
+                                </ul>
+                            </div>
+                            <div class="feature-group">
+                                <span class="feature-label">Optional</span>
+                                <ul>
+                                    <li>Online ordering</li>
+                                    <li>Table booking</li>
+                                    <li>Reviews integration</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <a href="#contact" class="card-link">Discuss Your Requirements
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12 5 19 12 12 19"></polyline>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="card reveal reveal-delay-3">
+                        <div class="number-accent">03</div>
+                        <h3>School Websites</h3>
+                        <p style="color:var(--text-secondary);">Professional platforms for schools and educational
+                            institutions.</p>
+                        <div class="service-features">
+                            <div class="feature-group">
+                                <span class="feature-label">Included</span>
+                                <ul>
+                                    <li>Admissions info</li>
+                                    <li>Faculty showcase</li>
+                                    <li>Events calendar</li>
+                                    <li>Contact forms</li>
+                                </ul>
+                            </div>
+                            <div class="feature-group">
+                                <span class="feature-label">Optional</span>
+                                <ul>
+                                    <li>Student portal</li>
+                                    <li>Learning management</li>
+                                    <li>Fee payment</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <a href="#contact" class="card-link">Discuss Your Requirements
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12 5 19 12 12 19"></polyline>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="card reveal reveal-delay-4">
+                        <div class="number-accent">04</div>
+                        <h3>Clinic Websites</h3>
+                        <p style="color:var(--text-secondary);">Trust-focused websites for clinics and healthcare
+                            professionals.</p>
+                        <div class="service-features">
+                            <div class="feature-group">
+                                <span class="feature-label">Included</span>
+                                <ul>
+                                    <li>Service listings</li>
+                                    <li>Doctor profiles</li>
+                                    <li>Appointment form</li>
+                                    <li>Trust indicators</li>
+                                </ul>
+                            </div>
+                            <div class="feature-group">
+                                <span class="feature-label">Optional</span>
+                                <ul>
+                                    <li>Online booking</li>
+                                    <li>Patient portal</li>
+                                    <li>Telemedicine</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <a href="#contact" class="card-link">Discuss Your Requirements
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12 5 19 12 12 19"></polyline>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="card reveal reveal-delay-5">
+                        <div class="number-accent">05</div>
+                        <h3>E-Commerce</h3>
+                        <p style="color:var(--text-secondary);">Modern online stores designed around products and
+                            customer experience.</p>
+                        <div class="service-features">
+                            <div class="feature-group">
+                                <span class="feature-label">Included</span>
+                                <ul>
+                                    <li>Product catalog</li>
+                                    <li>Cart & checkout</li>
+                                    <li>Payment integration</li>
+                                    <li>Order management</li>
+                                </ul>
+                            </div>
+                            <div class="feature-group">
+                                <span class="feature-label">Optional</span>
+                                <ul>
+                                    <li>Inventory system</li>
+                                    <li>Customer accounts</li>
+                                    <li>Analytics</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <a href="#contact" class="card-link">Discuss Your Requirements
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12 5 19 12 12 19"></polyline>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="card reveal reveal-delay-5">
+                        <div class="number-accent">06</div>
+                        <h3>Custom Web Solutions</h3>
+                        <p style="color:var(--text-secondary);">Custom websites and digital experiences for unique
+                            business requirements.</p>
+                        <div class="service-features">
+                            <div class="feature-group">
+                                <span class="feature-label">Included</span>
+                                <ul>
+                                    <li>Custom design</li>
+                                    <li>Responsive build</li>
+                                    <li>Performance optimization</li>
+                                    <li>Testing & QA</li>
+                                </ul>
+                            </div>
+                            <div class="feature-group">
+                                <span class="feature-label">Optional</span>
+                                <ul>
+                                    <li>Custom backend</li>
+                                    <li>API integrations</li>
+                                    <li>Admin dashboard</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <a href="#contact" class="card-link">Discuss Your Requirements
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12 5 19 12 12 19"></polyline>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing -->
+        <section id="pricing">
+            <div class="container">
+                <span class="section-label reveal">Pricing</span>
+                <h2 class="reveal reveal-delay-1">Transparent Pricing, Starting From</h2>
+                <p class="section-subtitle reveal reveal-delay-1">Every project is unique. Final pricing depends on your
+                    specific requirements, features, and timeline.</p>
+                <div class="pricing-grid reveal reveal-delay-2">
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h3>Business Website</h3>
+                            <p class="pricing-range">Starting from 14,999</p>
+                        </div>
+                        <ul class="pricing-features">
+                            <li>Up to 5 pages</li>
+                            <li>Responsive design</li>
+                            <li>Contact form</li>
+                            <li>Basic SEO</li>
+                            <li>Mobile optimized</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-outline" style="width:100%;">Discuss Your Requirements</a>
+                    </div>
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h3>Restaurant / Cafe</h3>
+                            <p class="pricing-range">Starting from 24,999</p>
+                        </div>
+                        <ul class="pricing-features">
+                            <li>Menu display</li>
+                            <li>Image gallery</li>
+                            <li>Reservation form</li>
+                            <li>Mobile optimized</li>
+                            <li>Social integration</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-outline" style="width:100%;">Discuss Your Requirements</a>
+                    </div>
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h3>E-Commerce</h3>
+                            <p class="pricing-range">Starting from 39,999</p>
+                        </div>
+                        <ul class="pricing-features">
+                            <li>Product catalog</li>
+                            <li>Cart & checkout</li>
+                            <li>Payment integration</li>
+                            <li>Order management</li>
+                            <li>Mobile optimized</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-outline" style="width:100%;">Discuss Your Requirements</a>
+                    </div>
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h3>Custom Solution</h3>
+                            <p class="pricing-range">Starting from 49,999</p>
+                        </div>
+                        <ul class="pricing-features">
+                            <li>Custom design</li>
+                            <li>Custom features</li>
+                            <li>API integrations</li>
+                            <li>Admin panel</li>
+                            <li>Performance focused</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-outline" style="width:100%;">Discuss Your Requirements</a>
+                    </div>
+                </div>
+                <p class="reveal reveal-delay-3"
+                    style="text-align:center; margin-top:2rem; color:var(--text-secondary); font-size:0.9rem;">
+                    Final pricing depends on project requirements. <a href="#contact" class="card-link">Get a custom
+                        quote
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            <polyline points="12 5 19 12 12 19"></polyline>
+                        </svg></a>
+                </p>
+            </div>
+        </section>
+
+        <!-- Industries -->
+        <section id="industries">
+            <div class="container">
+                <span class="section-label reveal">Industries</span>
+                <h2 class="reveal reveal-delay-1">Built For Businesses Across Industries.</h2>
+                <p class="section-subtitle reveal reveal-delay-1">We specialize in creating digital experiences for a
+                    wide range of business types.</p>
+                <div class="industries-grid reveal reveal-delay-2">
+                    <span class="industry-tag">Restaurants</span><span class="industry-tag">Cafes</span><span
+                        class="industry-tag">Hotels</span>
+                    <span class="industry-tag">Schools</span><span class="industry-tag">Clinics</span><span
+                        class="industry-tag">Retail</span>
+                    <span class="industry-tag">Startups</span><span class="industry-tag">E-Commerce</span><span
+                        class="industry-tag">Professional Services</span>
+                    <span class="industry-tag">Local Businesses</span>
+                </div>
+                <p class="reveal reveal-delay-3" style="margin-top:20px;"><a href="#contact" class="card-link">Don't see
+                        your industry Let's build something specifically for you
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            <polyline points="12 5 19 12 12 19"></polyline>
+                        </svg>
+                    </a></p>
+            </div>
+        </section>
+
+        <!-- Featured Work -->
+        <section id="work" style="background:var(--surface);">
+            <div class="container">
+                <span class="section-label reveal">Our Work</span>
+                <h2 class="reveal reveal-delay-1">Digital Experiences We've Built.</h2>
+                <p class="section-subtitle reveal reveal-delay-1">A selection of projects we've delivered for
+                    businesses.</p>
+                <div class="projects-grid reveal reveal-delay-2">
+                    <div class="project-card">
+                        <div class="project-img">
+                            <img src=" singh-ji-hotel.png" alt="Singh Ji Hotel Website Preview"
+                                loading="lazy">
+                        </div>
+                        <div class="project-body">
+                            <span class="project-badge">Real Project</span>
+                            <h3>Singh Ji Hotel</h3>
+                            <p style="color:var(--text-secondary); font-size:0.9rem; margin-top:0.3rem;">Restaurant /
+                                Hospitality</p>
+                            <p style="color:var(--text-secondary); font-size:0.9rem; margin-top:0.5rem;">Objective:
+                                Digital menu & brand presence</p>
+                            <div class="project-tech">
+                                <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                            </div>
+                            <a href="https://singhjihotel.com/" class="project-link" target="_blank">
+                                View Project
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                                    <polyline points="12 5 19 12 12 19"></polyline>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-img">
+                            <img src=" yogneer.png" alt="YogNeer Website Preview" loading="lazy">
+                        </div>
+                        <div class="project-body">
+                            <span class="project-badge">Concept</span>
+                            <h3>YogNeer</h3>
+                            <p style="color:var(--text-secondary); font-size:0.9rem; margin-top:0.3rem;">Water /
+                                Consumer Brand</p>
+                            <p style="color:var(--text-secondary); font-size:0.9rem; margin-top:0.5rem;">Objective:
+                                Storytelling & product showcase</p>
+                            <div class="project-tech">
+                                <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                            </div>
+                            <a href="https://yogneer.in/" class="project-link" target="_blank">
+                                View Project
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                                    <polyline points="12 5 19 12 12 19"></polyline>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-img">
+                            <img src=" dcr-cafe.png" alt="DCR Cafe Website Preview" loading="lazy">
+                        </div>
+                        <div class="project-body">
+                            <span class="project-badge">Concept</span>
+                            <h3>DCR Cafe</h3>
+                            <p style="color:var(--text-secondary); font-size:0.9rem; margin-top:0.3rem;">Cafe /
+                                Hospitality</p>
+                            <p style="color:var(--text-secondary); font-size:0.9rem; margin-top:0.5rem;">Objective:
+                                Menu showcase & customer engagement</p>
+                            <div class="project-tech">
+                                <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                            </div>
+                            <a href="https://dcrcafe.in/" class="project-link" target="_blank">
+                                View Project
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                                    <polyline points="12 5 19 12 12 19"></polyline>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-img">
+                            <img src=" aqua-dosti.png" alt="Aqua Dosti Website Preview" loading="lazy">
+                        </div>
+                        <div class="project-body">
+                            <span class="project-badge">Concept</span>
+                            <h3>Aqua Dosti</h3>
+                            <p style="color:var(--text-secondary); font-size:0.9rem; margin-top:0.3rem;">Water /
+                                Consumer Brand</p>
+                            <p style="color:var(--text-secondary); font-size:0.9rem; margin-top:0.5rem;">Objective:
+                                Storytelling & product showcase</p>
+                            <div class="project-tech">
+                                <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                            </div>
+                            <a href="https://aquadosti.in/" class="project-link" target="_blank">
+                                View Project
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                                    <polyline points="12 5 19 12 12 19"></polyline>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-img">
+                            <img src=" st-josephs-school.png" alt="St Joseph's School Website Preview" loading="lazy">
+                        </div>
+                        <div class="project-body">
+                            <span class="project-badge">Concept</span>
+                            <h3>St Joseph's School</h3>
+                            <p style="color:var(--text-secondary); font-size:0.9rem; margin-top:0.3rem;">Education /
+                                Institution</p>
+                            <p style="color:var(--text-secondary); font-size:0.9rem; margin-top:0.5rem;">Objective:
+                                Academic Excellence & Student engagement</p>
+                            <div class="project-tech">
+                                <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                            </div>
+                            <a href="https://sjsmmd.com/" class="project-link" target="_blank">
+                                View Project
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                                    <polyline points="12 5 19 12 12 19"></polyline>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-img">
+                            <img src=" volcanic-computer-academy.png" alt="Volcanic Computer Academy Website Preview" loading="lazy">
+                        </div>
+                        <div class="project-body">
+                            <span class="project-badge">Concept</span>
+                            <h3>Volcanic Computer Academy</h3>
+                            <p style="color:var(--text-secondary); font-size:0.9rem; margin-top:0.3rem;">Technology /
+                                Education</p>
+                            <p style="color:var(--text-secondary); font-size:0.9rem; margin-top:0.5rem;">Objective:
+                                Skill Development & Career Advancement</p>
+                            <div class="project-tech">
+                                <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                            </div>
+                            <a href="https://volcaniccomputeracademy.com/" class="project-link" target="_blank">
+                                View Project
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                                    <polyline points="12 5 19 12 12 19"></polyline>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section id="testimonials" style="display:none;">
+            <div class="container">
+                <span class="section-label reveal">Testimonials</span>
+                <h2 class="reveal reveal-delay-1">What Our Clients Say</h2>
+                <p class="section-subtitle reveal reveal-delay-1">Real feedback from businesses we've worked with.</p>
+                <div class="testimonials-grid reveal reveal-delay-2">
+                    <div class="testimonial-card">
+                        <div class="testimonial-header">
+                            <div class="testimonial-avatar">[Client Photo]</div>
+                            <div>
+                                <h4>Client Name</h4>
+                                <p>Business Name</p>
+                            </div>
+                        </div>
+                        <p class="testimonial-text">"Real testimonial will be added here."</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Case Study -->
+        <section>
+            <div class="container">
+                <span class="section-label reveal">Case Study</span>
+                <h2 class="reveal reveal-delay-1">From Business Requirement To Digital Experience.</h2>
+                <p class="section-subtitle reveal reveal-delay-1">How we transform business needs into professional
+                    digital solutions.</p>
+                <div class="case-timeline reveal reveal-delay-2">
+                    <div class="case-item">
+                        <div class="case-marker">01</div>
+                        <h4>Business Challenge</h4>
+                        <p>Singh Ji Hotel needed an online identity.</p>
+                    </div>
+                    <div class="case-item">
+                        <div class="case-marker">02</div>
+                        <h4>Strategy</h4>
+                        <p>Focus on visual storytelling and ease of use.</p>
+                    </div>
+                    <div class="case-item">
+                        <div class="case-marker">03</div>
+                        <h4>Design</h4>
+                        <p>Elegant interface aligned with brand.</p>
+                    </div>
+                    <div class="case-item">
+                        <div class="case-marker">04</div>
+                        <h4>Development</h4>
+                        <p>Responsive, fast, mobile-first.</p>
+                    </div>
+                    <div class="case-item">
+                        <div class="case-marker">05</div>
+                        <h4>Launch</h4>
+                        <p>Professional digital experience delivered.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Developers -->
+        <section id="developers" style="background:var(--surface);">
+            <div class="container">
+                <span class="section-label reveal">The Team</span>
+                <h2 class="reveal reveal-delay-1">Meet The Lead Developers Behind D2B.</h2>
+                <p class="section-subtitle reveal reveal-delay-1">Real people. Real skills. Built around your business.
+                </p>
+                <div class="developers-grid reveal reveal-delay-2">
+
+                    <div class="developer-card">
+
+                        <!-- Harshit Profile Photo -->
+                        <div class="developer-profile">
+                            <img src=" harshit.jpeg" alt="Harshit Kumar Singh" class="developer-photo">
+                        </div>
+
+                        <h3>Harshit Kumar Singh</h3>
+
+                        <p style="color:var(--text-secondary); margin-top:0.3rem;">
+                            Founder & Full-Stack Developer
+                        </p>
+
+                        <p style="color:var(--text-secondary); font-size:0.9rem; margin-top:0.5rem;">
+                            Building digital experiences that help businesses establish a professional online presence
+                            and connect with customers.
+                        </p>
+
+                        <div class="dev-specializations">
+                            <span class="dev-tag">Frontend Development</span>
+                            <span class="dev-tag">Backend Development</span>
+                            <span class="dev-tag">UI/UX Design</span>
+                            <span class="dev-tag">Business Websites</span>
+                        </div>
+
+                        <!-- Portfolio Button -->
+                        <a href="https://harshitd2b.netlify.app/" class="developer-portfolio-btn" target="_blank"
+                            rel="noopener noreferrer">
+                            View Portfolio
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16"
+                                height="16">
+                                <path d="M14 3h7v7"></path>
+                                <path d="M10 14L21 3"></path>
+                                <path d="M21 14v7H3V3h7"></path>
+                            </svg>
+                        </a>
+
+                    </div>
+
+                    <div class="developer-card">
+
+                        <!-- Piyush Profile Photo -->
+                        <div class="developer-profile">
+                            <img src=" piyush.jpeg" alt="Piyush Kumar Verma" class="developer-photo">
+                        </div>
+
+                        <h3>Piyush Kumar Verma</h3>
+
+                        <p style="color:var(--text-secondary); margin-top:0.3rem;">
+                            Founder & Full-Stack Developer
+                        </p>
+
+                        <p style="color:var(--text-secondary); font-size:0.9rem; margin-top:0.5rem;">
+                            Focused on delivering clean, functional web solutions that meet business needs.
+                        </p>
+
+                        <div class="dev-specializations">
+                            <span class="dev-tag">Frontend Development</span>
+                            <span class="dev-tag">Backend Development</span>
+                            <span class="dev-tag">Custom Solutions</span>
+                            <span class="dev-tag">Business Websites</span>
+                        </div>
+
+                        <!-- Portfolio Button -->
+                        <a href="https://elixirp.vercel.app/" class="developer-portfolio-btn" target="_blank"
+                            rel="noopener noreferrer">
+                            View Portfolio
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16"
+                                height="16">
+                                <path d="M14 3h7v7"></path>
+                                <path d="M10 14L21 3"></path>
+                                <path d="M21 14v7H3V3h7"></path>
+                            </svg>
+                        </a>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Why D2B -->
+        <section>
+            <div class="container">
+                <span class="section-label reveal">Why D2B</span>
+                <h2 class="reveal reveal-delay-1">Why Build With D2B </h2>
+                <p class="section-subtitle reveal reveal-delay-1">The principles that guide every project we take on.
+                </p>
+                <div class="cards-grid">
+                    <div class="card reveal reveal-delay-1">
+                        <div class="number-accent">01</div>
+                        <h3>Business First</h3>
+                        <p style="color:var(--text-secondary);">We start with your business goals, not just design
+                            trends.</p>
+                    </div>
+                    <div class="card reveal reveal-delay-2">
+                        <div class="number-accent">02</div>
+                        <h3>Custom Design</h3>
+                        <p style="color:var(--text-secondary);">No generic one-size-fits-all approach. Every website is
+                            unique.</p>
+                    </div>
+                    <div class="card reveal reveal-delay-3">
+                        <div class="number-accent">03</div>
+                        <h3>Modern Technology</h3>
+                        <p style="color:var(--text-secondary);">Built using modern, maintainable web technologies.</p>
+                    </div>
+                    <div class="card reveal reveal-delay-4">
+                        <div class="number-accent">04</div>
+                        <h3>Responsive Experience</h3>
+                        <p style="color:var(--text-secondary);">Desktop, tablet and mobile optimized by default.</p>
+                    </div>
+                    <div class="card reveal reveal-delay-5">
+                        <div class="number-accent">05</div>
+                        <h3>Clear Communication</h3>
+                        <p style="color:var(--text-secondary);">Simple, transparent updates throughout the project.</p>
+                    </div>
+                    <div class="card reveal reveal-delay-5">
+                        <div class="number-accent">06</div>
+                        <h3>Long-Term Thinking</h3>
+                        <p style="color:var(--text-secondary);">Built to support your business as it grows.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Process -->
+        <section id="process" style="background:var(--surface);">
+            <div class="container">
+                <span class="section-label reveal">Process</span>
+                <h2 class="reveal reveal-delay-1">From Idea To Launch.</h2>
+                <p class="section-subtitle reveal reveal-delay-1">A clear, structured approach to delivering your
+                    website.</p>
+                <div class="process-track reveal reveal-delay-2">
+                    <div class="process-step" data-step="1">
+                        <div class="step-number">01</div>
+                        <h4>Discover</h4>
+                        <p>Understand your business, audience and goals.</p>
+                    </div>
+                    <div class="process-step" data-step="2">
+                        <div class="step-number">02</div>
+                        <h4>Plan</h4>
+                        <p>Define structure, features and user journey.</p>
+                    </div>
+                    <div class="process-step" data-step="3">
+                        <div class="step-number">03</div>
+                        <h4>Design</h4>
+                        <p>Create the visual identity and interface.</p>
+                    </div>
+                    <div class="process-step" data-step="4">
+                        <div class="step-number">04</div>
+                        <h4>Develop</h4>
+                        <p>Turn the design into a functional responsive website.</p>
+                    </div>
+                    <div class="process-step" data-step="5">
+                        <div class="step-number">05</div>
+                        <h4>Launch</h4>
+                        <p>Test, optimize and launch.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Conversion -->
+        <section class="dark-bg" style="background: var(--primary-dark); color: white; text-align: center;">
+            <div class="container">
+                <h2 class="reveal" style="color:white;">Your Next Customer Could Be Online Right Now.</h2>
+                <p class="reveal reveal-delay-1" style="color:#cbd5e1; max-width:600px; margin:1rem auto;">Let's create
+                    a website that represents your business professionally and gives your customers a better way to
+                    discover you.</p>
+                <div class="reveal reveal-delay-2"
+                    style="display:flex; gap:20px; justify-content:center; margin-top:30px; flex-wrap:wrap;">
+                    <a href="#contact" class="btn btn-white btn-arrow">Discuss Your Project
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            <polyline points="12 5 19 12 12 19"></polyline>
+                        </svg>
+                    </a>
+                    <a href="#contact" class="btn btn-outline" style="border-color:white; color:white;">Talk To Us</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section>
+            <div class="container">
+                <span class="section-label reveal">FAQ</span>
+                <h2 class="reveal reveal-delay-1">Frequently Asked Questions</h2>
+                <p class="section-subtitle reveal reveal-delay-1">Everything you need to know about working with D2B.
+                </p>
+                <div class="faq-list reveal reveal-delay-2">
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            How much does a website cost
+                            <span class="faq-icon" aria-hidden="true"></span>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="faq-answer-inner">Depends on requirements. We provide custom quotes based on
+                                your business needs, desired features, and timeline.</div>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            How long does a website take
+                            <span class="faq-icon" aria-hidden="true"></span>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="faq-answer-inner">Typically 2-5 weeks based on complexity. We'll give you a
+                                clear timeline during our initial discussion.</div>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            Can you build a website for my industry
+                            <span class="faq-icon" aria-hidden="true"></span>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="faq-answer-inner">Yes. We work with restaurants, clinics, schools, retail,
+                                startups, and many other industries.</div>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            Can you redesign my existing website
+                            <span class="faq-icon" aria-hidden="true"></span>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="faq-answer-inner">Absolutely. We can modernize your current website while
+                                preserving what works and improving what doesn't.</div>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            Will my website work on mobile
+                            <span class="faq-icon" aria-hidden="true"></span>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="faq-answer-inner">Every website we build is fully responsive and tested across
+                                desktop, tablet, and mobile devices.</div>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            Can I request custom features
+                            <span class="faq-icon" aria-hidden="true"></span>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="faq-answer-inner">Yes. We build tailored solutions. If you have specific
+                                functionality in mind, we'll discuss how to implement it.</div>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            Do you provide maintenance
+                            <span class="faq-icon" aria-hidden="true"></span>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="faq-answer-inner">We offer maintenance and support options to keep your website
+                                secure, updated, and performing well.</div>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            Can you help with domain and hosting
+                            <span class="faq-icon" aria-hidden="true"></span>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="faq-answer-inner">Yes. We can guide you through domain registration and
+                                recommend reliable hosting solutions for your business.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" style="background:var(--surface);">
+            <div class="container">
+                <span class="section-label reveal">Contact</span>
+                <h2 class="reveal reveal-delay-1">Let's Build Something For Your Business.</h2>
+                <p class="section-subtitle reveal reveal-delay-1">Tell us about your project and we'll get back to you
+                    within 24 hours.</p>
+                <div class="contact-grid reveal reveal-delay-2">
+                    <form id="contactForm" novalidate>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Name <span style="color:#dc2626;">*</span></label>
+                                <input type="text" id="name" name="name" placeholder="Your full name" required>
+                                <span class="form-error" id="nameError">Please enter your name.</span>
+                            </div>
+                            <div class="form-group">
+                                <label for="businessName">Business Name <span style="color:#dc2626;">*</span></label>
+                                <input type="text" id="businessName" name="businessName"
+                                    placeholder="Your business name" required>
+                                <span class="form-error" id="businessNameError">Please enter your business name.</span>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email <span style="color:#dc2626;">*</span></label>
+                                <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                                <span class="form-error" id="emailError">Please enter a valid email address.</span>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone / WhatsApp</label>
+                                <input type="tel" id="phone" name="phone" placeholder="+91 XXXXXXXXXX">
+                                <span class="form-error" id="phoneError">Please enter a valid phone number.</span>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="businessType">Business Type <span style="color:#dc2626;">*</span></label>
+                                <select id="businessType" name="businessType" required>
+                                    <option value="">Select business type</option>
+                                    <option value="restaurant">Restaurant</option>
+                                    <option value="cafe">Cafe</option>
+                                    <option value="hotel">Hotel</option>
+                                    <option value="school">School</option>
+                                    <option value="clinic">Clinic</option>
+                                    <option value="retail">Retail</option>
+                                    <option value="startup">Startup</option>
+                                    <option value="ecommerce">E-Commerce</option>
+                                    <option value="other">Other</option>
+                                </select>
+                                <span class="form-error" id="businessTypeError">Please select your business type.</span>
+                            </div>
+                            <div class="form-group">
+                                <label for="projectType">Project Type <span style="color:#dc2626;">*</span></label>
+                                <select id="projectType" name="projectType" required>
+                                    <option value="">Select project type</option>
+                                    <option value="new">New Website</option>
+                                    <option value="redesign">Redesign</option>
+                                    <option value="ecommerce">E-Commerce</option>
+                                    <option value="custom">Custom Solution</option>
+                                </select>
+                                <span class="form-error" id="projectTypeError">Please select a project type.</span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="budget">Budget Range</label>
+                            <select id="budget" name="budget">
+                                <option value="">Select budget range</option>
+                                <option value="under-10k">Under 10,000</option>
+                                <option value="10k-25k"> 10,000 - 25,000</option>
+                                <option value="25k-50k"> 25,000 - 50,000</option>
+                                <option value="50k-1l"> 50,000 - 1,00,000</option>
+                                <option value="above-1l">Above 1,00,000</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message <span style="color:#dc2626;">*</span></label>
+                            <textarea id="message" name="message" rows="4" placeholder="Tell us about your project..."
+                                required></textarea>
+                            <span class="form-error" id="messageError">Please enter your message.</span>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-arrow" id="submitBtn"><span
+                                href="wa.me/917488343041" target="_blank" rel="noopener noreferrer">Send Project
+                                Enquiry</span>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12 5 19 12 12 19"></polyline>
+                            </svg>
+                        </button>
+                    </form>
+                    <div class="form-success" id="formSuccess">
+                        <h3>Thanks for reaching out.</h3>
+                        <p>Your project enquiry has been received. We'll get back to you within 24 hours.</p>
+                    </div>
+                    <div class="form-error-message" id="formError" style="display:none;">
+                        <h3>Something went wrong.</h3>
+                        <p>Please try again or contact us directly at <a
+                                href="mailto:d2bdigital79@gmail.com">d2bdigital79@gmail.com</a></p>
+                    </div>
+                    <div class="contact-info" id="contactInfo">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path
+                                        d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                                    </path>
+                                    <polyline points="22,6 12,13 2,6"></polyline>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>Email</h4>
+                                <p><a href="mailto:d2bdigital79@gmail.com">d2bdigital79@gmail.com</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path
+                                        d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>WhatsApp</h4>
+                                <p><a href="https://wa.me/917488343041">+91
+                                        74883 43041</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>Instagram</h4>
+                                <p><a href="#">@d2b__digital</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path
+                                        d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                                    </path>
+                                    <rect x="2" y="9" width="4" height="12"></rect>
+                                    <circle cx="4" cy="4" r="2"></circle>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>LinkedIn</h4>
+                                <p><a href="#">D2B Design</a></p>
+                            </div>
+                        </div>
+                        <div class="whatsapp-cta">
+                            <a href="https://wa.me/917488343041" class="btn btn-primary" target="_blank"
+                                rel="noopener noreferrer">
+                                Get a Free Project Consultation
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                                    <polyline points="12 5 19 12 12 19"></polyline>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="footer-brand-logo">D2B<span>.</span></div>
+                    <p class="footer-brand-tagline">Building modern digital experiences for businesses. Design.
+                        Development. Built for Business.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Instagram">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="LinkedIn">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path
+                                    d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                                </path>
+                                <rect x="2" y="9" width="4" height="12"></rect>
+                                <circle cx="4" cy="4" r="2"></circle>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="WhatsApp">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path
+                                    d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z">
+                                </path>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Email">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                                </path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#developers">Developers</a></li>
+                        <li><a href="#work">Work</a></li>
+                        <li><a href="#process">Process</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul>
+                        <li>Business Websites</li>
+                        <li>Restaurant & Cafe</li>
+                        <li>School Websites</li>
+                        <li>Clinic Websites</li>
+                        <li>e-commerce.html</li>
+                        <li>Custom Solutions</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Industries</h4>
+                    <ul>
+                        <li>Restaurants</li>
+                        <li>Schools</li>
+                        <li>Clinics</li>
+                        <li>Retail</li>
+                        <li>Startups</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Connect</h4>
+                    <ul>
+                        <li><a href="https://www.instagram.com/d2b__digital/" target="_blank"
+                                rel="noopener noreferrer">Instagram</a></li>
+                        <li><a href="https://www.linkedin.com/company/d2b-digital" target="_blank"
+                                rel="noopener noreferrer">LinkedIn</a></li>
+                        <li><a href="https://wa.me/917488343041" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+                        </li>
+                        <li><a href="mailto:d2bdigital79@gmail.com">d2bdigital79@gmail.com</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+
+            <div class="footer-newsletter">
+                <div class="newsletter-inner">
+                    <div class="newsletter-text">
+                        <h3>Let's build something together.</h3>
+                        <p>Get insights on modern web design for businesses.</p>
+                    </div>
+
+                    <form class="newsletter-form" id="newsletterForm">
+                        <input type="email" name="email" placeholder="Enter your email" aria-label="Email address"
+                            required>
+                        <button type="submit" class="btn btn-primary">
+                            Subscribe
+                        </button>
+                    </form>
+
+                    <p id="newsletterMessage"></p>
+                </div>
+            </div>
+
+
+            <div class="footer-bottom">
+                <span>© 2026 D2B. All Rights Reserved.</span>
+                <div class="footer-legal">
+                    <span class="footer-sep">·</span>
+                    <a href="privacy.html">Privacy Policy</a>
+                    <span class="footer-sep">·</span>
+                    <a href="terms.html">Terms & Conditions</a>
+                </div>
+                <a href="privacy.html" class="back-to-top" aria-label="Back to top">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="18 15 12 9 6 15"></polyline>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/917488343041" class="whatsapp-float" target="_blank" rel="noopener noreferrer"
+        aria-label="Chat on WhatsApp">
+        <svg viewBox="0 0 24 24" fill="currentColor" width="28" height="28">
+            <path
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+        </svg>
+    </a>
+
+
+</body>
+
+</html>
